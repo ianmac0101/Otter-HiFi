@@ -61,6 +61,7 @@
 			children = (
 				A80BE4481FBF573A005582D2 /* ViewController.swift */,
 				A80BE4591FBF5A6D005582D2 /* PracticesController.swift */,
+				A80BE4521FBF573A005582D2 /* Info.plist */,
 				A80BE4581FBF57E3005582D2 /* Supporting Files */,
 				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
 			);
@@ -73,7 +74,6 @@
 				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
 				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
 				A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */,
-				A80BE4521FBF573A005582D2 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
