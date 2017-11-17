@@ -13,6 +13,7 @@
 		A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44D1FBF573A005582D2 /* Assets.xcassets */; };
 		A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */; };
 		A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4591FBF5A6D005582D2 /* PracticesController.swift */; };
+		A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A80BE4501FBF573A005582D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A80BE4521FBF573A005582D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A80BE4591FBF5A6D005582D2 /* PracticesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesController.swift; sourceTree = "<group>"; };
+		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		A80BE43A1FBF573A005582D2 = {
 			isa = PBXGroup;
 			children = (
+				A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */,
 				A80BE4451FBF573A005582D2 /* Otter */,
 				A80BE4441FBF573A005582D2 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */,
+				A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */,
 				A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */,
 				A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */,
 			);
