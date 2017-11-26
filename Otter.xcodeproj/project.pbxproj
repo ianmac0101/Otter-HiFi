@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CC002601FCA1349005D3616 /* EditGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */; };
+		3CC002621FCA1879005D3616 /* ViewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC002611FCA1879005D3616 /* ViewGoalViewController.swift */; };
 		3CE307F31FC90521003C2776 /* Goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE307F11FC90521003C2776 /* Goal.storyboard */; };
+		3CE307F61FC923ED003C2776 /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE307F51FC923ED003C2776 /* otter_img.png */; };
+		3CE307F81FC92AAA003C2776 /* GoalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */; };
+		3CE307FC1FC931D1003C2776 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE307FB1FC931D1003C2776 /* RoundButton.swift */; };
 		A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4461FBF573A005582D2 /* AppDelegate.swift */; };
 		A80BE4491FBF573A005582D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4481FBF573A005582D2 /* ViewController.swift */; };
 		A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44A1FBF573A005582D2 /* Main.storyboard */; };
@@ -18,7 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalViewController.swift; sourceTree = "<group>"; };
+		3CC002611FCA1879005D3616 /* ViewGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGoalViewController.swift; sourceTree = "<group>"; };
 		3CE307F21FC90521003C2776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Goal.storyboard; sourceTree = "<group>"; };
+		3CE307F51FC923ED003C2776 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
+		3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalHomeViewController.swift; sourceTree = "<group>"; };
+		3CE307FB1FC931D1003C2776 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		A80BE4431FBF573A005582D2 /* Otter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80BE4461FBF573A005582D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A80BE4481FBF573A005582D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				3CE307F11FC90521003C2776 /* Goal.storyboard */,
+				3CC002611FCA1879005D3616 /* ViewGoalViewController.swift */,
+				3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */,
+				3CE307FB1FC931D1003C2776 /* RoundButton.swift */,
+				3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */,
 			);
 			path = Goals;
 			sourceTree = "<group>";
@@ -81,6 +95,7 @@
 		A80BE4581FBF57E3005582D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CE307F51FC923ED003C2776 /* otter_img.png */,
 				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
 				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
 				A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */,
@@ -152,6 +167,7 @@
 				A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */,
 				3CE307F31FC90521003C2776 /* Goal.storyboard in Resources */,
 				A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */,
+				3CE307F61FC923ED003C2776 /* otter_img.png in Resources */,
 				A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,7 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A80BE4491FBF573A005582D2 /* ViewController.swift in Sources */,
+				3CC002601FCA1349005D3616 /* EditGoalViewController.swift in Sources */,
+				3CE307FC1FC931D1003C2776 /* RoundButton.swift in Sources */,
 				A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */,
+				3CE307F81FC92AAA003C2776 /* GoalHomeViewController.swift in Sources */,
+				3CC002621FCA1879005D3616 /* ViewGoalViewController.swift in Sources */,
 				A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,7 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Otter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Otter/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.imacato.Otter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -325,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Otter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Otter/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.imacato.Otter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
