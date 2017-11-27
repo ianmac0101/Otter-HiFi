@@ -14,9 +14,12 @@
 		A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */; };
 		A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4591FBF5A6D005582D2 /* PracticesController.swift */; };
 		A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */; };
+		A85B24971FCCA50200F26774 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A85B24961FCCA50200F26774 /* GoogleService-Info.plist */; };
+		A8AA43C8B6435E87B2131593 /* Pods_Otter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E82257B1A67943F9BFBCB2 /* Pods_Otter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0BE0DC52E44753131A2C2DA /* Pods-Otter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Otter/Pods-Otter.release.xcconfig"; sourceTree = "<group>"; };
 		A80BE4431FBF573A005582D2 /* Otter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80BE4461FBF573A005582D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A80BE4481FBF573A005582D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,9 @@
 		A80BE4521FBF573A005582D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A80BE4591FBF5A6D005582D2 /* PracticesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesController.swift; sourceTree = "<group>"; };
 		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A85B24961FCCA50200F26774 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5E82257B1A67943F9BFBCB2 /* Pods_Otter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE23CFE1591EB1A08584075 /* Pods-Otter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Otter/Pods-Otter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8AA43C8B6435E87B2131593 /* Pods_Otter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +52,8 @@
 				A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */,
 				A80BE4451FBF573A005582D2 /* Otter */,
 				A80BE4441FBF573A005582D2 /* Products */,
+				CF14C243C5D93E0CB0069AE7 /* Pods */,
+				D8D47BFD0B3C1DC045DC882B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +70,7 @@
 			children = (
 				A80BE4481FBF573A005582D2 /* ViewController.swift */,
 				A80BE4591FBF5A6D005582D2 /* PracticesController.swift */,
+				A85B24961FCCA50200F26774 /* GoogleService-Info.plist */,
 				A80BE4521FBF573A005582D2 /* Info.plist */,
 				A80BE4581FBF57E3005582D2 /* Supporting Files */,
 				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
@@ -78,6 +88,23 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CF14C243C5D93E0CB0069AE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCE23CFE1591EB1A08584075 /* Pods-Otter.debug.xcconfig */,
+				A0BE0DC52E44753131A2C2DA /* Pods-Otter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8D47BFD0B3C1DC045DC882B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E82257B1A67943F9BFBCB2 /* Pods_Otter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A80BE4551FBF573A005582D2 /* Build configuration list for PBXNativeTarget "Otter" */;
 			buildPhases = (
+				9D701C912E989879C8EE4242 /* [CP] Check Pods Manifest.lock */,
 				A80BE43F1FBF573A005582D2 /* Sources */,
 				A80BE4401FBF573A005582D2 /* Frameworks */,
 				A80BE4411FBF573A005582D2 /* Resources */,
+				CE8E37177E7028E349006443 /* [CP] Embed Pods Frameworks */,
+				E4E2A6E7A147DC5B8CF6199F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,12 +169,61 @@
 			files = (
 				A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */,
 				A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */,
+				A85B24971FCCA50200F26774 /* GoogleService-Info.plist in Resources */,
 				A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */,
 				A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D701C912E989879C8EE4242 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8E37177E7028E349006443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Otter/Pods-Otter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E2A6E7A147DC5B8CF6199F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Otter/Pods-Otter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A80BE43F1FBF573A005582D2 /* Sources */ = {
@@ -288,6 +367,7 @@
 		};
 		A80BE4561FBF573A005582D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE23CFE1591EB1A08584075 /* Pods-Otter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +382,7 @@
 		};
 		A80BE4571FBF573A005582D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BE0DC52E44753131A2C2DA /* Pods-Otter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
