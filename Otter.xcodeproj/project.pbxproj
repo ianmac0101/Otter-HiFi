@@ -12,11 +12,12 @@
 		A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44A1FBF573A005582D2 /* Main.storyboard */; };
 		A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44D1FBF573A005582D2 /* Assets.xcassets */; };
 		A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */; };
-		A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4591FBF5A6D005582D2 /* PracticesController.swift */; };
 		A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */; };
 		A85B24971FCCA50200F26774 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A85B24961FCCA50200F26774 /* GoogleService-Info.plist */; };
 		A8AA43C8B6435E87B2131593 /* Pods_Otter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E82257B1A67943F9BFBCB2 /* Pods_Otter.framework */; };
 		A8CB464B1FCF49B700591F7F /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CB464A1FCF49B600591F7F /* otter_img.png */; };
+		A8CB464D1FCF4CCF00591F7F /* practicesPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */; };
+		A8CB464F1FCF4D7800591F7F /* practicesTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +29,11 @@
 		A80BE44D1FBF573A005582D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80BE4501FBF573A005582D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A80BE4521FBF573A005582D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A80BE4591FBF5A6D005582D2 /* PracticesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesController.swift; sourceTree = "<group>"; };
 		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A85B24961FCCA50200F26774 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8CB464A1FCF49B600591F7F /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = otter_img.png; path = ../../../../Downloads/otter_img.png; sourceTree = "<group>"; };
+		A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicesPickerViewController.swift; sourceTree = "<group>"; };
+		A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicesTimerViewController.swift; sourceTree = "<group>"; };
 		B5E82257B1A67943F9BFBCB2 /* Pods_Otter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE23CFE1591EB1A08584075 /* Pods-Otter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Otter/Pods-Otter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,11 +72,12 @@
 		A80BE4451FBF573A005582D2 /* Otter */ = {
 			isa = PBXGroup;
 			children = (
+				A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */,
 				A80BE4481FBF573A005582D2 /* ViewController.swift */,
-				A80BE4591FBF5A6D005582D2 /* PracticesController.swift */,
 				A85B24961FCCA50200F26774 /* GoogleService-Info.plist */,
 				A80BE4521FBF573A005582D2 /* Info.plist */,
 				A8CB464A1FCF49B600591F7F /* otter_img.png */,
+				A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */,
 				A80BE4581FBF57E3005582D2 /* Supporting Files */,
 				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
 			);
@@ -235,8 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A80BE4491FBF573A005582D2 /* ViewController.swift in Sources */,
-				A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */,
+				A8CB464D1FCF4CCF00591F7F /* practicesPickerViewController.swift in Sources */,
 				A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */,
+				A8CB464F1FCF4D7800591F7F /* practicesTimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

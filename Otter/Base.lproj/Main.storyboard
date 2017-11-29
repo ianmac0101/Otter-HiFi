@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Practices Picker View Controller-->
         <scene sceneID="uIn-9h-Pd9">
             <objects>
-                <viewController id="dXf-mt-KgO" sceneMemberID="viewController">
+                <viewController title="Practices Picker View Controller" id="dXf-mt-KgO" customClass="practicesPickerViewController" customModule="Otter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m6D-1R-11m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,6 +72,10 @@
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5s2-1E-W4W">
                                 <rect key="frame" x="-1" y="305" width="375" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="dXf-mt-KgO" id="rqk-Mi-zB0"/>
+                                    <outlet property="delegate" destination="dXf-mt-KgO" id="643-X5-N8i"/>
+                                </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="There's lots of things we can" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-gp-Jwv">
                                 <rect key="frame" x="124" y="50" width="223" height="25"/>
@@ -126,6 +130,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZPS-Ij-ErH"/>
                     </view>
+                    <connections>
+                        <outlet property="practicesPicker" destination="5s2-1E-W4W" id="2ad-mE-oyz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sck-K6-fQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
