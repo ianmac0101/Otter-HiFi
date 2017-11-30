@@ -226,11 +226,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNW-z4-x1p">
+                                <rect key="frame" x="119" y="483" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B17-vA-bc8">
+                                <rect key="frame" x="214" y="483" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pause"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="43v-PK-Ysw"/>
                     </view>
                     <connections>
+                        <outlet property="pauseButton" destination="B17-vA-bc8" id="l6a-hs-e4f"/>
+                        <outlet property="startButton" destination="GNW-z4-x1p" id="tcJ-YY-eRl"/>
+                        <outlet property="timerLabel" destination="FP8-ZJ-WgW" id="vCS-BN-Yjw"/>
                         <outlet property="view" destination="FP8-ZJ-WgW" id="QhX-sy-noz"/>
                     </connections>
                 </viewController>

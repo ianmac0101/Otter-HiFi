@@ -17,9 +17,11 @@ class practicesTimerViewController: UIViewController {
     }
 
     //MARK: - IBOutlets
-    @IBOutlet weak var startButton: UIButton!
-    @IBOutlet weak var pauseButton: UIButton!
 
+
+    @IBOutlet weak var pauseButton: UIButton!
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var timerLabel: UILabel!
     
     var seconds = 60
     var timer = Timer()
@@ -36,7 +38,7 @@ class practicesTimerViewController: UIViewController {
     }
     
     func runTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(ViewController.updateTimer)), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(practicesTimerViewController.updateTimer)), userInfo: nil, repeats: true)
         isTimerRunning = true
         pauseButton.isEnabled = true
     }
@@ -65,7 +67,7 @@ class practicesTimerViewController: UIViewController {
     }
     
     
-    func updateTimer() {
+    @objc func updateTimer() {
         if seconds < 1 {
             timer.invalidate()
             //Send alert to indicate time's up.
