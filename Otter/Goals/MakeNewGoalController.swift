@@ -52,6 +52,7 @@ class MakeNewGoalController: UIViewController {
     @IBAction func createSelected(_ sender: Any) {
         var newGoal = Goal(activity: activityField.text!, frequency: "Weekly", interval: 1, daysOfWeek: [String](), location: locationField.text!, note: detailField.text!, totalDaysActive: 0, totalDaysCompleted: 0, schedule: schedule)
         goalsList.append(newGoal)
+        goal_created = true
         
     }
     override func didReceiveMemoryWarning() {
