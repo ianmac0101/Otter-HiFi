@@ -77,5 +77,23 @@ class Goal {
             return "0" + "%"
         }
     }
+    //Hard coded 76%,
+    func getMonthRate() -> String {
+        if totalDaysActive != 0 {
+            var completion_rate = Float (totalDaysCompleted) / Float (totalDaysActive)
+            completion_rate = round( completion_rate * 100)
+            return "76.0" + "%"
+        } else {
+            return "0" + "%"
+        }
+    }
+    func getWeekRate() -> String {
+        if totalDaysActive != 0 {
+            var completion_rate = Float (totalDaysCompleted) / Float (totalDaysActive)
+            completion_rate = round( completion_rate * 100)
+            return "\(completion_rate)" + "%"
+        } else {
+            return "0" + "%"
+        }    }
 }
 
