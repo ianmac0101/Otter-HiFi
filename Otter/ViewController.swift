@@ -24,6 +24,17 @@ class ViewController: UIViewController {
         return 0
     }
     
+//    class func scheduledTimer(
+//        withTimeInterval: TimeInterval,
+//        repeats: Bool,
+//        block: (Timer) -> Void
+//        ) -> Timer
+    
+//    private weak var timer: Timer?
+//    timer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { timer in
+//    // your code here
+//    }
+    
     
 
 
