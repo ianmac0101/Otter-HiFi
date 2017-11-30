@@ -6,6 +6,6 @@ target 'Otter' do
   use_frameworks!
 
   # Pods for Otter
-pod 'Firebase/Core'
+#pod 'Firebase/Core'
 
 end
