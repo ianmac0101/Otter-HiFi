@@ -32,6 +32,18 @@ class practicesPickerViewController: UIViewController, UIPickerViewDataSource, U
         return practices.count
     }
     
+//    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if let identifier = segue.identifier {
+//            switch identifier {
+//            case “Show Graph”:
+//                if let vc = segue.destination as? GraphController {
+//                    vc.property1 = ...
+//                        vc.callMethodToSetItUp(...)
+//                }
+//            default: break
+//            }
+//        } }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
