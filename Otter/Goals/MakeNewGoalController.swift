@@ -10,6 +10,7 @@ import UIKit
 
 class MakeNewGoalController: UIViewController {
 
+    @IBOutlet weak var timeF: UITextField!
     @IBOutlet weak var otterImg: UIImageView!
     @IBOutlet weak var activityField: UITextField!
     @IBOutlet weak var locationField: UITextField!
@@ -50,7 +51,7 @@ class MakeNewGoalController: UIViewController {
         schedule.append("Sa")
     }
     @IBAction func createSelected(_ sender: Any) {
-        var newGoal = Goal(activity: activityField.text!, frequency: "Weekly", interval: 1, daysOfWeek: [String](), location: locationField.text!, note: detailField.text!, totalDaysActive: 0, totalDaysCompleted: 0, schedule: schedule)
+        var newGoal = Goal(activity: activityField.text!, frequency: "Weekly", interval: 1, daysOfWeek: [String](), location: locationField.text!, note: detailField.text!, totalDaysActive: 0, totalDaysCompleted: 0, schedule: schedule, time: Int(timeF.text!)!)
         goalsList.append(newGoal)
         goal_created = true
         

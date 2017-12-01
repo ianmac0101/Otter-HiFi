@@ -20,6 +20,7 @@ class ViewGoalViewController: UIViewController {
     @IBOutlet weak var fImage: UIImageView!
     @IBOutlet weak var saImage: UIImageView!
     
+    @IBOutlet weak var timeField: UILabel!
     @IBOutlet weak var percentField: UITextField!
     
     @IBOutlet weak var percentCommentField: UITextField!
@@ -39,6 +40,7 @@ class ViewGoalViewController: UIViewController {
         super.viewDidLoad()
         textlabel.text = "This is your goal " + "\(goalsList[myIndex].activity)"
         self.otterImage.image = UIImage(named: "otter_img.png")
+        self.timeField.text = "Usually around " + goalsList[myIndex].getTime()
         self.percentField.text = goalsList[myIndex].getCompletionRate()
         
         self.percentCommentField.text = "within last week"
