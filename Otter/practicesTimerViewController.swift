@@ -17,8 +17,6 @@ class practicesTimerViewController: UIViewController {
     }
 
     //MARK: - IBOutlets
-
-
     @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var timerLabel: UILabel!
@@ -56,15 +54,15 @@ class practicesTimerViewController: UIViewController {
             self.pauseButton.setTitle("Pause",for: .normal)
         }
     }
-    
-    @IBAction func resetButtonTapped(_ sender: UIButton) {
-        timer.invalidate()
-        seconds = 60
-        timerLabel.text = timeString(time: TimeInterval(seconds))
-        isTimerRunning = false
-        pauseButton.isEnabled = false
-        startButton.isEnabled = true
-    }
+//
+//    @IBAction func resetButtonTapped(_ sender: UIButton) {
+//        timer.invalidate()
+//        seconds = 60
+//        timerLabel.text = timeString(time: TimeInterval(seconds))
+//        isTimerRunning = false
+//        pauseButton.isEnabled = false
+//        startButton.isEnabled = true
+//    }
     
     
     @objc func updateTimer() {
@@ -75,7 +73,7 @@ class practicesTimerViewController: UIViewController {
             seconds -= 1
             timerLabel.text = timeString(time: TimeInterval(seconds))
             timerLabel.text = String(seconds)
-            //            labelButton.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
+//            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
         }
     }
     
