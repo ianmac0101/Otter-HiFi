@@ -20,23 +20,27 @@ class ViewGoalViewController: UIViewController {
     @IBOutlet weak var fImage: UIImageView!
     @IBOutlet weak var saImage: UIImageView!
     
+    @IBOutlet weak var timeField: UILabel!
     @IBOutlet weak var percentField: UITextField!
     
     @IBOutlet weak var percentCommentField: UITextField!
     
-    
+    @IBAction func weekPressed(_ sender: Any) {
+        self.percentField.text = goalsList[myIndex].getWeekRate()
+        self.percentCommentField.text = "within last week"
+
+    }
+    @IBAction func monthPressed(_ sender: Any) {
+        self.percentField.text = goalsList[myIndex].getMonthRate()
+        self.percentCommentField.text = "within last month"
+
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //Todo: Create a varying message depending on your goal progress
-            // If completion rate > 80% => "You're doing great"
-            // If completion rate > 40% => "Okay!"
-            // If completion rate > 0% => "Not so great."
-            // == 0, You just started
-        
         textlabel.text = "This is your goal " + "\(goalsList[myIndex].activity)"
         self.otterImage.image = UIImage(named: "otter_img.png")
+        self.timeField.text = "Usually around " + goalsList[myIndex].getTime()
         self.percentField.text = goalsList[myIndex].getCompletionRate()
         
         self.percentCommentField.text = "within last week"

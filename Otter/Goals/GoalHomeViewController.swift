@@ -9,9 +9,9 @@
 import UIKit
 
 //Create pre-filled variables for user, ie user will have already running and meditating goals
-var runningGoal = Goal(activity: "Running", frequency: "weekly", interval: 1, daysOfWeek: ["M","Tu"], location:"", note: "",totalDaysActive: 2, totalDaysCompleted: 2, schedule:  ["M","Tu"])
+var runningGoal = Goal(activity: "Running", frequency: "weekly", interval: 1, daysOfWeek: ["M","Tu"], location:"", note: "",totalDaysActive: 2, totalDaysCompleted: 2, schedule:  ["M","Tu"], time: 2000)
 
-var meditatingGoal = Goal(activity: "Meditating", frequency: "weekly", interval: 1, daysOfWeek: ["M","Tu"], location:"", note: "", totalDaysActive: 4, totalDaysCompleted: 2, schedule:  ["M","Tu","Th","F"])
+var meditatingGoal = Goal(activity: "Meditating", frequency: "weekly", interval: 1, daysOfWeek: ["M","Tu"], location:"", note: "", totalDaysActive: 4, totalDaysCompleted: 2, schedule:  ["M","Tu","Th","F"], time: 1300)
 //Currently storing the goals as global variables (not great, but ok for now//
 //TODO: REplace global variables
 var goalsList = [runningGoal,meditatingGoal]
@@ -62,8 +62,9 @@ class Goal {
     var location = ""
     var note = ""
     var schedule = [String]()
+    var time = 1200
     
-    init (activity: String, frequency: String, interval: Int, daysOfWeek: [String], location:String, note: String, totalDaysActive: Int, totalDaysCompleted: Int, schedule: [String]){
+    init (activity: String, frequency: String, interval: Int, daysOfWeek: [String], location:String, note: String, totalDaysActive: Int, totalDaysCompleted: Int, schedule: [String],time: Int){
         self.activity = activity
         self.frequency = frequency
         self.interval = interval
@@ -73,6 +74,8 @@ class Goal {
         self.totalDaysActive = totalDaysActive
         self.totalDaysCompleted = totalDaysCompleted
         self.schedule = schedule
+        self.time = time
+        
     }
     func getCompletionRate() -> String {
         if totalDaysActive != 0 {
@@ -81,6 +84,42 @@ class Goal {
             return "\(completion_rate)" + "%"
         } else {
             return "0" + "%"
+        }
+    }
+    //Hard coded 76%,
+    func getMonthRate() -> String {
+        if totalDaysActive != 0 {
+            var completion_rate = Float (totalDaysCompleted) / Float (totalDaysActive)
+            completion_rate = round( completion_rate * 100)
+            return "76.0" + "%"
+        } else {
+            return "0" + "%"
+        }
+    }
+    func getWeekRate() -> String {
+        if totalDaysActive != 0 {
+            var completion_rate = Float (totalDaysCompleted) / Float (totalDaysActive)
+            completion_rate = round( completion_rate * 100)
+            return "\(completion_rate)" + "%"
+        } else {
+            return "0" + "%"
+        }    }
+    func getTime() -> String {
+        if self.time > 1200{
+            var hour = Int(Double(self.time) / 100.0)
+            var min = self.time % 100
+            if min < 10 {
+                return"\(hour):0\(min) PM"
+            }
+            return "\(hour):\(min) PM"
+        } else {
+            var hour = Int(Double(self.time) / 100.0)
+            var min = self.time % 100
+            if min < 10 {
+                return"\(hour):0\(min) PM"
+            }
+            return "\(hour):\(min) AM"
+            
         }
     }
 }
