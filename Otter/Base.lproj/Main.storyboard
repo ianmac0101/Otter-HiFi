@@ -41,10 +41,17 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svc-2d-j7R">
                                 <rect key="frame" x="192" y="606" width="88" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<<<<<<< HEAD
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="GOALS">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+=======
+                                <state key="normal" title="Goals"/>
+                                <connections>
+                                    <segue destination="LXO-xV-Oab" kind="show" id="3HC-5h-VzH"/>
+                                </connections>
+>>>>>>> gustavo
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipl-6u-xRL">
                                 <rect key="frame" x="288" y="606" width="88" height="55"/>
@@ -94,6 +101,7 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
+<<<<<<< HEAD
         <!--Practices Picker View Controller-->
         <scene sceneID="uIn-9h-Pd9">
             <objects>
@@ -436,6 +444,15 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zn6-Ai-dEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2259" y="133"/>
+=======
+        <!--Goal-->
+        <scene sceneID="9f7-3F-qHV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Goal" id="LXO-xV-Oab" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ERO-sN-nmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="581"/>
+>>>>>>> gustavo
         </scene>
     </scenes>
     <resources>
