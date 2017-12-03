@@ -25,8 +25,14 @@ class GoalHomeViewController: UIViewController, UITableViewDelegate, UITableView
     }
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
-        cell.textLabel?.text = goalsList[indexPath.row].activity
+        //let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell",for: indexPath) as! HomeViewCell
+        //cell.textLabel?.text = goalsList[indexPath.row].activity
+        if indexPath.row < 2{
+            let filename = goalsList[indexPath.row].activity + ".jpeg"
+            cell.goalImage.image = UIImage(named: filename)
+        }
+        cell.goalLabel.text = goalsList[indexPath.row].activity
         return (cell)
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
