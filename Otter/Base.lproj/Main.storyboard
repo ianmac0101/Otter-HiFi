@@ -41,17 +41,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svc-2d-j7R">
                                 <rect key="frame" x="192" y="606" width="88" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< HEAD
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="GOALS">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-=======
-                                <state key="normal" title="Goals"/>
-                                <connections>
-                                    <segue destination="LXO-xV-Oab" kind="show" id="3HC-5h-VzH"/>
-                                </connections>
->>>>>>> gustavo
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipl-6u-xRL">
                                 <rect key="frame" x="288" y="606" width="88" height="55"/>
@@ -101,7 +94,6 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-<<<<<<< HEAD
         <!--Practices Picker View Controller-->
         <scene sceneID="uIn-9h-Pd9">
             <objects>
@@ -268,6 +260,9 @@
                                 <rect key="frame" x="27" y="20" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="End"/>
+                                <connections>
+                                    <segue destination="dXf-mt-KgO" kind="show" id="pzx-3H-7sa"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FP8-ZJ-WgW">
                                 <rect key="frame" x="171" y="434" width="33" height="21"/>
@@ -285,7 +280,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B17-vA-bc8">
-                                <rect key="frame" x="214" y="483" width="42" height="30"/>
+                                <rect key="frame" x="191" y="483" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pause"/>
                                 <connections>
@@ -308,6 +303,9 @@
                                 <state key="normal" title="PRACTICE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dXf-mt-KgO" kind="show" id="CwB-W2-fZj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lf-ai-sCK">
                                 <rect key="frame" x="191" y="607" width="88" height="55"/>
@@ -444,15 +442,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zn6-Ai-dEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2259" y="133"/>
-=======
-        <!--Goal-->
-        <scene sceneID="9f7-3F-qHV">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Goal" id="LXO-xV-Oab" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ERO-sN-nmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="137" y="581"/>
->>>>>>> gustavo
         </scene>
     </scenes>
     <resources>
@@ -464,4 +453,7 @@
         <image name="people.png" width="49" height="39"/>
         <image name="ripple.png" width="358" height="366"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="pzx-3H-7sa"/>
+    </inferredMetricsTieBreakers>
 </document>
