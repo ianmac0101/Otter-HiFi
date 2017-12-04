@@ -7,5 +7,7 @@ target 'Otter' do
 
   # Pods for Otter
 pod 'Firebase/Core'
+pod 'Firebase/Core'
+pod 'JSQMessagesViewController'
 
 end

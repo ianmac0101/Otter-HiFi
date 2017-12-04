@@ -26,6 +26,9 @@
                                 <state key="normal" title="REFLECT">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ug8-7f-Vfd" kind="show" id="Fxc-b3-8N8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejm-I6-wmr">
                                 <rect key="frame" x="96" y="606" width="88" height="55"/>
@@ -96,6 +99,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="wdg-hK-Bna">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Chat" id="ug8-7f-Vfd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sA8-zB-wwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-282" y="645"/>
         </scene>
         <!--Goal-->
         <scene sceneID="CHr-HY-hRR">
