@@ -18,6 +18,7 @@
 		3CE307FC1FC931D1003C2776 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE307FB1FC931D1003C2776 /* RoundButton.swift */; };
 		3CFDD97A1FCB7F2A00A07B3A /* MakeNewGoalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDD9791FCB7F2A00A07B3A /* MakeNewGoalController.swift */; };
 		3CFDD97C1FCB8ABA00A07B3A /* popUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDD97B1FCB8ABA00A07B3A /* popUpViewController.swift */; };
+		51E4B6EFB48A0466DDC5353F /* Pods_Otter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B37A59FBB969CCF96BB6DB /* Pods_Otter.framework */; };
 		A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4461FBF573A005582D2 /* AppDelegate.swift */; };
 		A80BE4491FBF573A005582D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4481FBF573A005582D2 /* ViewController.swift */; };
 		A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44A1FBF573A005582D2 /* Main.storyboard */; };
@@ -25,6 +26,10 @@
 		A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */; };
 		A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4591FBF5A6D005582D2 /* PracticesController.swift */; };
 		A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */; };
+		E3CB530D1FD331770039FD98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3CB530C1FD331770039FD98 /* GoogleService-Info.plist */; };
+		E3CB53161FD333A00039FD98 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CB53151FD333A00039FD98 /* Chat.storyboard */; };
+		E3CB53181FD334F20039FD98 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CB53171FD334F20039FD98 /* chatViewController.swift */; };
+		E3F5DED31FD3977B00A35A2C /* displayMainChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F5DED21FD3977B00A35A2C /* displayMainChat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +44,7 @@
 		3CE307FB1FC931D1003C2776 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		3CFDD9791FCB7F2A00A07B3A /* MakeNewGoalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNewGoalController.swift; sourceTree = "<group>"; };
 		3CFDD97B1FCB8ABA00A07B3A /* popUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViewController.swift; sourceTree = "<group>"; };
+		95EA366C48406E0A77C8C47D /* Pods-Otter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Otter/Pods-Otter.release.xcconfig"; sourceTree = "<group>"; };
 		A80BE4431FBF573A005582D2 /* Otter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80BE4461FBF573A005582D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A80BE4481FBF573A005582D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +54,12 @@
 		A80BE4521FBF573A005582D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A80BE4591FBF5A6D005582D2 /* PracticesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesController.swift; sourceTree = "<group>"; };
 		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B765FE0FC8A407021A9239C8 /* Pods-Otter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Otter/Pods-Otter.debug.xcconfig"; sourceTree = "<group>"; };
+		B9B37A59FBB969CCF96BB6DB /* Pods_Otter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CB530C1FD331770039FD98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3CB53151FD333A00039FD98 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		E3CB53171FD334F20039FD98 /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		E3F5DED21FD3977B00A35A2C /* displayMainChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayMainChat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E4B6EFB48A0466DDC5353F /* Pods_Otter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +91,22 @@
 			path = Goals;
 			sourceTree = "<group>";
 		};
+		A74E3D68FC766BF66B3C60B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B37A59FBB969CCF96BB6DB /* Pods_Otter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A80BE43A1FBF573A005582D2 = {
 			isa = PBXGroup;
 			children = (
 				A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */,
 				A80BE4451FBF573A005582D2 /* Otter */,
 				A80BE4441FBF573A005582D2 /* Products */,
+				F12397F4D38028478C4C19C5 /* Pods */,
+				A74E3D68FC766BF66B3C60B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +121,8 @@
 		A80BE4451FBF573A005582D2 /* Otter */ = {
 			isa = PBXGroup;
 			children = (
+				E3CB53101FD3330C0039FD98 /* OtterChat */,
+				E3CB530C1FD331770039FD98 /* GoogleService-Info.plist */,
 				3CE307F41FC90546003C2776 /* Goals */,
 				A80BE4481FBF573A005582D2 /* ViewController.swift */,
 				A80BE4591FBF5A6D005582D2 /* PracticesController.swift */,
@@ -119,6 +144,25 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E3CB53101FD3330C0039FD98 /* OtterChat */ = {
+			isa = PBXGroup;
+			children = (
+				E3CB53151FD333A00039FD98 /* Chat.storyboard */,
+				E3CB53171FD334F20039FD98 /* chatViewController.swift */,
+				E3F5DED21FD3977B00A35A2C /* displayMainChat.swift */,
+			);
+			path = OtterChat;
+			sourceTree = "<group>";
+		};
+		F12397F4D38028478C4C19C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B765FE0FC8A407021A9239C8 /* Pods-Otter.debug.xcconfig */,
+				95EA366C48406E0A77C8C47D /* Pods-Otter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A80BE4551FBF573A005582D2 /* Build configuration list for PBXNativeTarget "Otter" */;
 			buildPhases = (
+				535D0742AAC81AB862B2898A /* [CP] Check Pods Manifest.lock */,
 				A80BE43F1FBF573A005582D2 /* Sources */,
 				A80BE4401FBF573A005582D2 /* Frameworks */,
 				A80BE4411FBF573A005582D2 /* Resources */,
+				CF113A591160BEE49E9BCFB8 /* [CP] Embed Pods Frameworks */,
+				55DFAC232991894BDD8AE23F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,18 +226,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3AB37A1FCB3F8B00CA7A72 /* x.png in Resources */,
+				E3CB53161FD333A00039FD98 /* Chat.storyboard in Resources */,
 				A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */,
 				3C3AB37C1FCB3FA600CA7A72 /* -.png in Resources */,
 				A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */,
 				3CE307F31FC90521003C2776 /* Goal.storyboard in Resources */,
 				A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */,
 				3CE307F61FC923ED003C2776 /* otter_img.png in Resources */,
+				E3CB530D1FD331770039FD98 /* GoogleService-Info.plist in Resources */,
 				3C3AB37E1FCB3FB900CA7A72 /* check.png in Resources */,
 				A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		535D0742AAC81AB862B2898A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Otter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55DFAC232991894BDD8AE23F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Otter/Pods-Otter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF113A591160BEE49E9BCFB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Otter/Pods-Otter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Otter/Pods-Otter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A80BE43F1FBF573A005582D2 /* Sources */ = {
@@ -203,9 +312,11 @@
 				A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */,
 				3CE307F81FC92AAA003C2776 /* GoalHomeViewController.swift in Sources */,
 				3CFDD97A1FCB7F2A00A07B3A /* MakeNewGoalController.swift in Sources */,
+				E3CB53181FD334F20039FD98 /* chatViewController.swift in Sources */,
 				3CFDD97C1FCB8ABA00A07B3A /* popUpViewController.swift in Sources */,
 				3CC002621FCA1879005D3616 /* ViewGoalViewController.swift in Sources */,
 				A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */,
+				E3F5DED31FD3977B00A35A2C /* displayMainChat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +459,7 @@
 		};
 		A80BE4561FBF573A005582D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B765FE0FC8A407021A9239C8 /* Pods-Otter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -362,6 +474,7 @@
 		};
 		A80BE4571FBF573A005582D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EA366C48406E0A77C8C47D /* Pods-Otter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
