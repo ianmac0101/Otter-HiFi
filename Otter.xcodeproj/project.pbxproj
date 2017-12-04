@@ -17,6 +17,7 @@
 		A890DADE1FD26E4D006DB6BF /* ripple.png in Resources */ = {isa = PBXBuildFile; fileRef = A890DADD1FD26E44006DB6BF /* ripple.png */; };
 		A890DAE01FD26E9B006DB6BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */; };
 		A8AA43C8B6435E87B2131593 /* Pods_Otter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E82257B1A67943F9BFBCB2 /* Pods_Otter.framework */; };
+		A8B521D31FD4F0F600989CB2 /* practice.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B521D21FD4F0F600989CB2 /* practice.png */; };
 		A8C021E81FD26B300063BDF9 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E31FD26B0D0063BDF9 /* checkbox.png */; };
 		A8C021E91FD26B300063BDF9 /* lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E41FD26B0E0063BDF9 /* lightbulb.png */; };
 		A8C021EA1FD26B300063BDF9 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E51FD26B0F0063BDF9 /* people.png */; };
@@ -39,6 +40,7 @@
 		A890DADB1FD26E14006DB6BF /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
 		A890DADD1FD26E44006DB6BF /* ripple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ripple.png; sourceTree = "<group>"; };
 		A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8B521D21FD4F0F600989CB2 /* practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practice.png; sourceTree = "<group>"; };
 		A8C021E31FD26B0D0063BDF9 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
 		A8C021E41FD26B0E0063BDF9 /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb.png; sourceTree = "<group>"; };
 		A8C021E51FD26B0F0063BDF9 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
@@ -92,24 +94,17 @@
 				A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */,
 				A80BE4521FBF573A005582D2 /* Info.plist */,
 				A890DADB1FD26E14006DB6BF /* otter_img.png */,
+				A8B521D21FD4F0F600989CB2 /* practice.png */,
 				A890DADD1FD26E44006DB6BF /* ripple.png */,
 				A8C021E31FD26B0D0063BDF9 /* checkbox.png */,
 				A8C021E41FD26B0E0063BDF9 /* lightbulb.png */,
 				A8C021E51FD26B0F0063BDF9 /* people.png */,
-				A80BE4581FBF57E3005582D2 /* Supporting Files */,
-				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
-			);
-			path = Otter;
-			sourceTree = "<group>";
-		};
-		A80BE4581FBF57E3005582D2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
 				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
 				A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */,
+				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
 			);
-			path = "Supporting Files";
+			path = Otter;
 			sourceTree = "<group>";
 		};
 		CF14C243C5D93E0CB0069AE7 /* Pods */ = {
@@ -198,6 +193,7 @@
 				A890DADC1FD26E26006DB6BF /* otter_img.png in Resources */,
 				A890DAE01FD26E9B006DB6BF /* GoogleService-Info.plist in Resources */,
 				A890DADE1FD26E4D006DB6BF /* ripple.png in Resources */,
+				A8B521D31FD4F0F600989CB2 /* practice.png in Resources */,
 				A8C021EC1FD26B300063BDF9 /* chat.png in Resources */,
 				A8C021EA1FD26B300063BDF9 /* people.png in Resources */,
 				A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */,

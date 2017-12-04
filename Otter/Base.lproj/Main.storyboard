@@ -69,8 +69,8 @@
                                 <rect key="frame" x="29" y="611" width="31" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lightbulb.png" translatesAutoresizingMaskIntoConstraints="NO" id="CE5-8d-BAM">
-                                <rect key="frame" x="128" y="605" width="25" height="37"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="practice.png" translatesAutoresizingMaskIntoConstraints="NO" id="CE5-8d-BAM">
+                                <rect key="frame" x="123" y="605" width="34" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="3dQ-cH-FG1">
@@ -191,10 +191,6 @@
                                 <rect key="frame" x="29" y="613" width="31" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lightbulb.png" translatesAutoresizingMaskIntoConstraints="NO" id="N1n-Xq-cC2">
-                                <rect key="frame" x="128" y="607" width="25" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="CUy-Ig-oMK">
                                 <rect key="frame" x="220" y="611" width="33" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -211,6 +207,10 @@
                                 <rect key="frame" x="-3" y="404" width="375" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="practice.png" translatesAutoresizingMaskIntoConstraints="NO" id="7bn-CJ-GGQ">
+                                <rect key="frame" x="123" y="609" width="34" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZPS-Ij-ErH"/>
@@ -327,10 +327,6 @@
                                 <rect key="frame" x="28" y="612" width="31" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lightbulb.png" translatesAutoresizingMaskIntoConstraints="NO" id="lsO-rX-f3I">
-                                <rect key="frame" x="127" y="606" width="25" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="IiR-AZ-rTX">
                                 <rect key="frame" x="219" y="610" width="33" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -345,6 +341,10 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ripple.png" translatesAutoresizingMaskIntoConstraints="NO" id="fbe-WS-J4q">
                                 <rect key="frame" x="80" y="214" width="212" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="practice.png" translatesAutoresizingMaskIntoConstraints="NO" id="ljD-cG-rQy">
+                                <rect key="frame" x="122" y="610" width="34" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -407,10 +407,6 @@
                                 <rect key="frame" x="28" y="611" width="31" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lightbulb.png" translatesAutoresizingMaskIntoConstraints="NO" id="GAT-lD-dI5">
-                                <rect key="frame" x="127" y="605" width="25" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="cxz-P9-e7t">
                                 <rect key="frame" x="219" y="609" width="33" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -434,6 +430,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="practice.png" translatesAutoresizingMaskIntoConstraints="NO" id="eaO-yM-AtZ">
+                                <rect key="frame" x="122" y="609" width="34" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LZK-RB-r4f"/>
@@ -447,10 +447,10 @@
     <resources>
         <image name="chat.png" width="40" height="38"/>
         <image name="checkbox.png" width="38" height="40"/>
-        <image name="lightbulb.png" width="30" height="45"/>
         <image name="line.png" width="375" height="1"/>
         <image name="otter_img.png" width="110" height="217"/>
         <image name="people.png" width="49" height="39"/>
+        <image name="practice.png" width="299" height="251"/>
         <image name="ripple.png" width="358" height="366"/>
     </resources>
     <inferredMetricsTieBreakers>
