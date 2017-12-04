@@ -8,13 +8,24 @@
 
 import UIKit
 
-class MakeNewGoalController: UIViewController {
+class MakeNewGoalController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return 1
+    }
+    
 
     @IBOutlet weak var timeF: UITextField!
     @IBOutlet weak var otterImg: UIImageView!
     @IBOutlet weak var activityField: UITextField!
     @IBOutlet weak var locationField: UITextField!
     @IBOutlet weak var detailField: UITextField!
+    
+    @IBOutlet weak var hourPicker: UIPickerView!
+    @IBOutlet weak var minutePicker: UIPickerView!
     var schedule = [String]()
     var activity =  ""
     var location = ""

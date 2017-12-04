@@ -42,8 +42,6 @@ class GoalHomeViewController: UIViewController, UITableViewDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         self.imageViewOtter.image = UIImage(named: "otter_img.png")
-        
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
