@@ -43,10 +43,10 @@
 		A890DADD1FD26E44006DB6BF /* ripple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ripple.png; sourceTree = "<group>"; };
 		A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8B521D21FD4F0F600989CB2 /* practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practice.png; sourceTree = "<group>"; };
-		A8B521D41FD4F61E00989CB2 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = running.jpeg; path = ../../../../Downloads/gustavo/running.jpeg; sourceTree = "<group>"; };
+		A8B521D41FD4F61E00989CB2 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = running.jpeg; path = ../../../../Downloads/gustavo/Goals/running.jpeg; sourceTree = "<group>"; };
 		A8B521D51FD4F61E00989CB2 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = otter_img.png; path = ../../../../Downloads/gustavo/otter_img.png; sourceTree = "<group>"; };
 		A8B521DC1FD4F61E00989CB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Downloads/gustavo/Info.plist; sourceTree = "<group>"; };
-		A8B521E11FD4F61F00989CB2 /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meditating.jpeg; path = ../../../../Downloads/gustavo/meditating.jpeg; sourceTree = "<group>"; };
+		A8B521E11FD4F61F00989CB2 /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meditating.jpeg; path = ../../../../Downloads/gustavo/Goals/meditating.jpeg; sourceTree = "<group>"; };
 		A8B521E31FD4F61F00989CB2 /* Goals */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Goals; path = ../../../../Downloads/gustavo/Goals; sourceTree = "<group>"; };
 		A8B521E51FD4F61F00989CB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../Downloads/gustavo/ViewController.swift; sourceTree = "<group>"; };
 		A8B522041FD4FC4500989CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Downloads/gustavo/Goals/Base.lproj/Goal.storyboard; sourceTree = "<group>"; };
