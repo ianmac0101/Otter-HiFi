@@ -47,6 +47,7 @@
 		A8B1084D1FD5E10700E538A0 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Chat.storyboard; path = ../../../../Downloads/OtterChat/Chat.storyboard; sourceTree = "<group>"; };
 		A8B1084E1FD5E10800E538A0 /* chatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = chatViewController.swift; path = ../../../../Downloads/OtterChat/chatViewController.swift; sourceTree = "<group>"; };
 		A8B1084F1FD5E10800E538A0 /* displayMainChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = displayMainChat.swift; path = ../../../../Downloads/OtterChat/displayMainChat.swift; sourceTree = "<group>"; };
+		A8B108531FD5F72600E538A0 /* Goal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Goal.storyboard; sourceTree = "<group>"; };
 		A8B521D21FD4F0F600989CB2 /* practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practice.png; sourceTree = "<group>"; };
 		A8B521D41FD4F61E00989CB2 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = running.jpeg; path = ../../../../Downloads/gustavo/Goals/running.jpeg; sourceTree = "<group>"; };
 		A8B521D51FD4F61E00989CB2 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = otter_img.png; path = ../../../../Downloads/gustavo/otter_img.png; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 				A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */,
 				A8B521E51FD4F61F00989CB2 /* ViewController.swift */,
 				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
+				A8B108531FD5F72600E538A0 /* Goal.storyboard */,
 				A8B521E31FD4F61F00989CB2 /* Goals */,
 				A8C021E71FD26B1C0063BDF9 /* chat.png */,
 				A8C021E61FD26B110063BDF9 /* line.png */,
