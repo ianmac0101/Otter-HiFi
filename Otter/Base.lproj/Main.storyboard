@@ -46,7 +46,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dRL-Gr-CIN" kind="show" id="LUy-QH-H4Q"/>
+                                    <segue destination="IVT-Uz-xVv" kind="show" id="mqd-NN-04P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipl-6u-xRL">
@@ -98,12 +98,12 @@
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
         <!--Goal-->
-        <scene sceneID="uWj-0d-2QX">
+        <scene sceneID="CHr-HY-hRR">
             <objects>
-                <viewControllerPlaceholder storyboardName="Goal" id="dRL-Gr-CIN" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BJH-Jg-P4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Goal" id="IVT-Uz-xVv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V4T-fM-TFP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136" y="762"/>
+            <point key="canvasLocation" x="258" y="683"/>
         </scene>
         <!--Practices Picker View Controller-->
         <scene sceneID="uIn-9h-Pd9">
