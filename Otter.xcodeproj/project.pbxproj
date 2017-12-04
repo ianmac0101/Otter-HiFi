@@ -8,16 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4461FBF573A005582D2 /* AppDelegate.swift */; };
-		A80BE4491FBF573A005582D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4481FBF573A005582D2 /* ViewController.swift */; };
 		A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44A1FBF573A005582D2 /* Main.storyboard */; };
 		A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44D1FBF573A005582D2 /* Assets.xcassets */; };
-		A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */; };
 		A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */; };
 		A890DADC1FD26E26006DB6BF /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = A890DADB1FD26E14006DB6BF /* otter_img.png */; };
 		A890DADE1FD26E4D006DB6BF /* ripple.png in Resources */ = {isa = PBXBuildFile; fileRef = A890DADD1FD26E44006DB6BF /* ripple.png */; };
 		A890DAE01FD26E9B006DB6BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */; };
 		A8AA43C8B6435E87B2131593 /* Pods_Otter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E82257B1A67943F9BFBCB2 /* Pods_Otter.framework */; };
 		A8B521D31FD4F0F600989CB2 /* practice.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B521D21FD4F0F600989CB2 /* practice.png */; };
+		A8B521EC1FD4F62000989CB2 /* running.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B521D41FD4F61E00989CB2 /* running.jpeg */; };
+		A8B521ED1FD4F62000989CB2 /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B521D51FD4F61E00989CB2 /* otter_img.png */; };
+		A8B521F31FD4F62000989CB2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B521DC1FD4F61E00989CB2 /* Info.plist */; };
+		A8B521F81FD4F62000989CB2 /* meditating.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B521E11FD4F61F00989CB2 /* meditating.jpeg */; };
+		A8B521FA1FD4F62000989CB2 /* Goals in Resources */ = {isa = PBXBuildFile; fileRef = A8B521E31FD4F61F00989CB2 /* Goals */; };
+		A8B521FC1FD4F62000989CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B521E51FD4F61F00989CB2 /* ViewController.swift */; };
+		A8B522051FD4FC4500989CB2 /* Goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B522031FD4FC4500989CB2 /* Goal.storyboard */; };
 		A8C021E81FD26B300063BDF9 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E31FD26B0D0063BDF9 /* checkbox.png */; };
 		A8C021E91FD26B300063BDF9 /* lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E41FD26B0E0063BDF9 /* lightbulb.png */; };
 		A8C021EA1FD26B300063BDF9 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E51FD26B0F0063BDF9 /* people.png */; };
@@ -31,16 +36,20 @@
 		A0BE0DC52E44753131A2C2DA /* Pods-Otter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Otter/Pods-Otter.release.xcconfig"; sourceTree = "<group>"; };
 		A80BE4431FBF573A005582D2 /* Otter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80BE4461FBF573A005582D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A80BE4481FBF573A005582D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A80BE44B1FBF573A005582D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A80BE44D1FBF573A005582D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A80BE4501FBF573A005582D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A80BE4521FBF573A005582D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A890DADB1FD26E14006DB6BF /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
 		A890DADD1FD26E44006DB6BF /* ripple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ripple.png; sourceTree = "<group>"; };
 		A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8B521D21FD4F0F600989CB2 /* practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practice.png; sourceTree = "<group>"; };
+		A8B521D41FD4F61E00989CB2 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = running.jpeg; path = ../../../../Downloads/gustavo/running.jpeg; sourceTree = "<group>"; };
+		A8B521D51FD4F61E00989CB2 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = otter_img.png; path = ../../../../Downloads/gustavo/otter_img.png; sourceTree = "<group>"; };
+		A8B521DC1FD4F61E00989CB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Downloads/gustavo/Info.plist; sourceTree = "<group>"; };
+		A8B521E11FD4F61F00989CB2 /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meditating.jpeg; path = ../../../../Downloads/gustavo/meditating.jpeg; sourceTree = "<group>"; };
+		A8B521E31FD4F61F00989CB2 /* Goals */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Goals; path = ../../../../Downloads/gustavo/Goals; sourceTree = "<group>"; };
+		A8B521E51FD4F61F00989CB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../Downloads/gustavo/ViewController.swift; sourceTree = "<group>"; };
+		A8B522041FD4FC4500989CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Downloads/gustavo/Goals/Base.lproj/Goal.storyboard; sourceTree = "<group>"; };
 		A8C021E31FD26B0D0063BDF9 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
 		A8C021E41FD26B0E0063BDF9 /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb.png; sourceTree = "<group>"; };
 		A8C021E51FD26B0F0063BDF9 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
@@ -88,20 +97,24 @@
 			children = (
 				A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */,
 				A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */,
-				A80BE4481FBF573A005582D2 /* ViewController.swift */,
+				A8B521E51FD4F61F00989CB2 /* ViewController.swift */,
+				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
+				A8B522031FD4FC4500989CB2 /* Goal.storyboard */,
+				A8B521E31FD4F61F00989CB2 /* Goals */,
 				A8C021E71FD26B1C0063BDF9 /* chat.png */,
 				A8C021E61FD26B110063BDF9 /* line.png */,
-				A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */,
-				A80BE4521FBF573A005582D2 /* Info.plist */,
+				A8B521E11FD4F61F00989CB2 /* meditating.jpeg */,
+				A8B521D51FD4F61E00989CB2 /* otter_img.png */,
+				A8B521D41FD4F61E00989CB2 /* running.jpeg */,
 				A890DADB1FD26E14006DB6BF /* otter_img.png */,
 				A8B521D21FD4F0F600989CB2 /* practice.png */,
 				A890DADD1FD26E44006DB6BF /* ripple.png */,
 				A8C021E31FD26B0D0063BDF9 /* checkbox.png */,
 				A8C021E41FD26B0E0063BDF9 /* lightbulb.png */,
 				A8C021E51FD26B0F0063BDF9 /* people.png */,
-				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
+				A8B521DC1FD4F61E00989CB2 /* Info.plist */,
+				A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */,
 				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
-				A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */,
 				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
 			);
 			path = Otter;
@@ -186,15 +199,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */,
 				A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */,
 				A8C021EB1FD26B300063BDF9 /* line.png in Resources */,
 				A8C021E81FD26B300063BDF9 /* checkbox.png in Resources */,
 				A890DADC1FD26E26006DB6BF /* otter_img.png in Resources */,
 				A890DAE01FD26E9B006DB6BF /* GoogleService-Info.plist in Resources */,
+				A8B521F31FD4F62000989CB2 /* Info.plist in Resources */,
+				A8B521FA1FD4F62000989CB2 /* Goals in Resources */,
 				A890DADE1FD26E4D006DB6BF /* ripple.png in Resources */,
+				A8B521ED1FD4F62000989CB2 /* otter_img.png in Resources */,
 				A8B521D31FD4F0F600989CB2 /* practice.png in Resources */,
+				A8B522051FD4FC4500989CB2 /* Goal.storyboard in Resources */,
 				A8C021EC1FD26B300063BDF9 /* chat.png in Resources */,
+				A8B521EC1FD4F62000989CB2 /* running.jpeg in Resources */,
+				A8B521F81FD4F62000989CB2 /* meditating.jpeg in Resources */,
 				A8C021EA1FD26B300063BDF9 /* people.png in Resources */,
 				A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */,
 				A8C021E91FD26B300063BDF9 /* lightbulb.png in Resources */,
@@ -257,8 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80BE4491FBF573A005582D2 /* ViewController.swift in Sources */,
 				A8CB464D1FCF4CCF00591F7F /* practicesPickerViewController.swift in Sources */,
+				A8B521FC1FD4F62000989CB2 /* ViewController.swift in Sources */,
 				A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */,
 				A8CB464F1FCF4D7800591F7F /* practicesTimerViewController.swift in Sources */,
 			);
@@ -275,12 +293,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */ = {
+		A8B522031FD4FC4500989CB2 /* Goal.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A80BE4501FBF573A005582D2 /* Base */,
+				A8B522041FD4FC4500989CB2 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Goal.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -388,7 +406,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -418,6 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.imacato.Otter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
