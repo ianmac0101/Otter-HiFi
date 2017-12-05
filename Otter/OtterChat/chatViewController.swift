@@ -190,7 +190,7 @@ extension chatViewController{
             //then maybe by message counts or days
             //have hello again consistent? or every nth time appear
         } else{
-             message2 = JSQMessage(senderId: "2", displayName: "Otter", text: "Hello Again")
+             message2 = JSQMessage(senderId: "2", displayName: "Otter", text: "Anything new?")
         }
   
         
