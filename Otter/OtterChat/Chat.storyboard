@@ -101,13 +101,5 @@
             </objects>
             <point key="canvasLocation" x="1542" y="337"/>
         </scene>
-        <!--Chat-->
-        <scene sceneID="ADU-rM-pzw">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Chat" id="yy7-ez-fRJ" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7VH-NH-Y9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1566" y="599"/>
-        </scene>
     </scenes>
 </document>
