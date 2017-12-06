@@ -42,7 +42,6 @@ class ViewGoalViewController: UIViewController {
         self.otterImage.image = UIImage(named: "otter_img.png")
         self.timeField.text = "Usually around " + goalsList[myIndex].getTime()
         self.percentField.text = goalsList[myIndex].getCompletionRate()
-        
         self.percentCommentField.text = "within last week"
         
         if goalsList[myIndex].schedule.contains("Su") {

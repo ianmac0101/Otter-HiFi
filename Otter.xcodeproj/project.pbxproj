@@ -13,8 +13,10 @@
 		3C3AB37A1FCB3F8B00CA7A72 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AB3791FCB3F8A00CA7A72 /* x.png */; };
 		3C3AB37C1FCB3FA600CA7A72 /* -.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AB37B1FCB3FA500CA7A72 /* -.png */; };
 		3C3AB37E1FCB3FB900CA7A72 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AB37D1FCB3FB900CA7A72 /* check.png */; };
+		3C4A8FE21FD7BCF6002D9C05 /* ViewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A8FE11FD7BCF5002D9C05 /* ViewGoalViewController.swift */; };
+		3C4A8FE41FD7BD5A002D9C05 /* PickTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A8FE31FD7BD5A002D9C05 /* PickTimeViewController.swift */; };
+		3C4A8FE61FD85EC9002D9C05 /* PickDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A8FE51FD85EC9002D9C05 /* PickDaysViewController.swift */; };
 		3CC002601FCA1349005D3616 /* EditGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */; };
-		3CC002621FCA1879005D3616 /* ViewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC002611FCA1879005D3616 /* ViewGoalViewController.swift */; };
 		3CE307F31FC90521003C2776 /* Goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE307F11FC90521003C2776 /* Goal.storyboard */; };
 		3CE307F61FC923ED003C2776 /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE307F51FC923ED003C2776 /* otter_img.png */; };
 		3CE307F81FC92AAA003C2776 /* GoalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */; };
@@ -37,8 +39,10 @@
 		3C3AB3791FCB3F8A00CA7A72 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 		3C3AB37B1FCB3FA500CA7A72 /* -.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-.png"; sourceTree = "<group>"; };
 		3C3AB37D1FCB3FB900CA7A72 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		3C4A8FE11FD7BCF5002D9C05 /* ViewGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewGoalViewController.swift; sourceTree = "<group>"; };
+		3C4A8FE31FD7BD5A002D9C05 /* PickTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTimeViewController.swift; sourceTree = "<group>"; };
+		3C4A8FE51FD85EC9002D9C05 /* PickDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDaysViewController.swift; sourceTree = "<group>"; };
 		3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalViewController.swift; sourceTree = "<group>"; };
-		3CC002611FCA1879005D3616 /* ViewGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGoalViewController.swift; sourceTree = "<group>"; };
 		3CE307F21FC90521003C2776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Goal.storyboard; sourceTree = "<group>"; };
 		3CE307F51FC923ED003C2776 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
 		3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalHomeViewController.swift; sourceTree = "<group>"; };
@@ -71,10 +75,12 @@
 			isa = PBXGroup;
 			children = (
 				3CE307F11FC90521003C2776 /* Goal.storyboard */,
+				3C4A8FE51FD85EC9002D9C05 /* PickDaysViewController.swift */,
 				3C30DCB51FD46B6000C73A7F /* HomeViewCell.swift */,
 				3CFDD97B1FCB8ABA00A07B3A /* popUpViewController.swift */,
 				3CFDD9791FCB7F2A00A07B3A /* MakeNewGoalController.swift */,
-				3CC002611FCA1879005D3616 /* ViewGoalViewController.swift */,
+				3C4A8FE11FD7BCF5002D9C05 /* ViewGoalViewController.swift */,
+				3C4A8FE31FD7BD5A002D9C05 /* PickTimeViewController.swift */,
 				3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */,
 				3CE307FB1FC931D1003C2776 /* RoundButton.swift */,
 				3C3AB3791FCB3F8A00CA7A72 /* x.png */,
@@ -209,14 +215,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A80BE4491FBF573A005582D2 /* ViewController.swift in Sources */,
+				3C4A8FE21FD7BCF6002D9C05 /* ViewGoalViewController.swift in Sources */,
 				3CC002601FCA1349005D3616 /* EditGoalViewController.swift in Sources */,
+				3C4A8FE41FD7BD5A002D9C05 /* PickTimeViewController.swift in Sources */,
 				3CE307FC1FC931D1003C2776 /* RoundButton.swift in Sources */,
 				A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */,
 				3CE307F81FC92AAA003C2776 /* GoalHomeViewController.swift in Sources */,
 				3CFDD97A1FCB7F2A00A07B3A /* MakeNewGoalController.swift in Sources */,
 				3CFDD97C1FCB8ABA00A07B3A /* popUpViewController.swift in Sources */,
 				3C30DCB61FD46B6000C73A7F /* HomeViewCell.swift in Sources */,
-				3CC002621FCA1879005D3616 /* ViewGoalViewController.swift in Sources */,
+				3C4A8FE61FD85EC9002D9C05 /* PickDaysViewController.swift in Sources */,
 				A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
