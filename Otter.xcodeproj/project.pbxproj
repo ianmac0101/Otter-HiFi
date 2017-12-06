@@ -38,6 +38,8 @@
 		A8C021EA1FD26B300063BDF9 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E51FD26B0F0063BDF9 /* people.png */; };
 		A8C021EB1FD26B300063BDF9 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E61FD26B110063BDF9 /* line.png */; };
 		A8C021EC1FD26B300063BDF9 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E71FD26B1C0063BDF9 /* chat.png */; };
+		A8C9A4A91FD7CE3D00741245 /* profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C9A4A81FD7CE3D00741245 /* profile.storyboard */; };
+		A8C9A4AA1FD7E0BE00741245 /* Goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A826B51D1FD7A1F30091531B /* Goal.storyboard */; };
 		A8CB464D1FCF4CCF00591F7F /* practicesPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */; };
 		A8CB464F1FCF4D7800591F7F /* practicesTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */; };
 /* End PBXBuildFile section */
@@ -49,7 +51,7 @@
 		A80BE44B1FBF573A005582D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A80BE44D1FBF573A005582D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A826B51D1FD7A1F30091531B /* Goal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Goal.storyboard; sourceTree = "<group>"; };
+		A826B51D1FD7A1F30091531B /* Goal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Goal.storyboard; path = /Users/ianmacato/Documents/Developer/Otter/Otter/Goal.storyboard; sourceTree = "<absolute>"; };
 		A826B51E1FD7A1FF0091531B /* popUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViewController.swift; sourceTree = "<group>"; };
 		A826B51F1FD7A1FF0091531B /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 		A826B5201FD7A1FF0091531B /* -.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-.png"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		A8C021E51FD26B0F0063BDF9 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
 		A8C021E61FD26B110063BDF9 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		A8C021E71FD26B1C0063BDF9 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		A8C9A4A81FD7CE3D00741245 /* profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = profile.storyboard; sourceTree = "<group>"; };
 		A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicesPickerViewController.swift; sourceTree = "<group>"; };
 		A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicesTimerViewController.swift; sourceTree = "<group>"; };
 		B5E82257B1A67943F9BFBCB2 /* Pods_Otter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +157,7 @@
 				A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */,
 				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
 				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
+				A8C9A4A81FD7CE3D00741245 /* profile.storyboard */,
 			);
 			path = Otter;
 			sourceTree = "<group>";
@@ -248,7 +252,9 @@
 				A8B521D31FD4F0F600989CB2 /* practice.png in Resources */,
 				A8C021EC1FD26B300063BDF9 /* chat.png in Resources */,
 				A8B521EC1FD4F62000989CB2 /* running.jpeg in Resources */,
+				A8C9A4AA1FD7E0BE00741245 /* Goal.storyboard in Resources */,
 				A8B108501FD5E10800E538A0 /* Chat.storyboard in Resources */,
+				A8C9A4A91FD7CE3D00741245 /* profile.storyboard in Resources */,
 				A8B521F81FD4F62000989CB2 /* meditating.jpeg in Resources */,
 				A8C021EA1FD26B300063BDF9 /* people.png in Resources */,
 				A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */,
@@ -457,9 +463,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY6H988JMP;
 				INFOPLIST_FILE = Otter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.imacato.Otter;
+				PRODUCT_BUNDLE_IDENTIFIER = imacato.Otter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,9 +479,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY6H988JMP;
 				INFOPLIST_FILE = Otter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.imacato.Otter;
+				PRODUCT_BUNDLE_IDENTIFIER = imacato.Otter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;

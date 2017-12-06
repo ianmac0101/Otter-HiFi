@@ -263,7 +263,7 @@
         <!--Goal Home View Controller-->
         <scene sceneID="Opt-dz-qF9">
             <objects>
-                <viewController id="62b-lf-eSK" customClass="GoalHomeViewController" customModule="Otter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="goalHomeViewController" id="62b-lf-eSK" customClass="GoalHomeViewController" customModule="Otter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="86G-G8-I1c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
