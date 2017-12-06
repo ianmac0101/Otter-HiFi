@@ -65,6 +65,9 @@
                                 <state key="normal" title="PRACTICE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="N69-hV-B8b" kind="show" id="dhr-yr-H9V"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsn-he-k17">
                                 <rect key="frame" x="191" y="612" width="88" height="55"/>
@@ -84,6 +87,9 @@
                                 <state key="normal" title="PROFILE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lkS-V5-2Zr" kind="show" id="DEW-dQ-zJK"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chat.png" translatesAutoresizingMaskIntoConstraints="NO" id="EAE-0B-Ucc">
                                 <rect key="frame" x="28" y="617" width="31" height="31"/>
@@ -136,6 +142,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="doM-yY-H8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1362" y="439"/>
+        </scene>
+        <!--profile-->
+        <scene sceneID="zGj-uu-JOf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="profile" id="lkS-V5-2Zr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E7F-B1-mff" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1632" y="451"/>
+        </scene>
+        <!--Practice-->
+        <scene sceneID="EwK-Ht-zLv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Practice" id="N69-hV-B8b" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3RB-GK-hdb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1146" y="381"/>
         </scene>
         <!--Main-->
         <scene sceneID="W9U-x5-L9J">
