@@ -26,6 +26,7 @@
 		A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44F1FBF573A005582D2 /* LaunchScreen.storyboard */; };
 		A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4591FBF5A6D005582D2 /* PracticesController.swift */; };
 		A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */; };
+		E34F36201FD799080092FD1C /* otter-art.png in Resources */ = {isa = PBXBuildFile; fileRef = E34F361F1FD799080092FD1C /* otter-art.png */; };
 		E3CB530D1FD331770039FD98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3CB530C1FD331770039FD98 /* GoogleService-Info.plist */; };
 		E3CB53161FD333A00039FD98 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CB53151FD333A00039FD98 /* Chat.storyboard */; };
 		E3CB53181FD334F20039FD98 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CB53171FD334F20039FD98 /* chatViewController.swift */; };
@@ -56,6 +57,7 @@
 		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B765FE0FC8A407021A9239C8 /* Pods-Otter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Otter/Pods-Otter.debug.xcconfig"; sourceTree = "<group>"; };
 		B9B37A59FBB969CCF96BB6DB /* Pods_Otter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34F361F1FD799080092FD1C /* otter-art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "otter-art.png"; sourceTree = "<group>"; };
 		E3CB530C1FD331770039FD98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3CB53151FD333A00039FD98 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		E3CB53171FD334F20039FD98 /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		A80BE4581FBF57E3005582D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E34F361F1FD799080092FD1C /* otter-art.png */,
 				3CE307F51FC923ED003C2776 /* otter_img.png */,
 				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
 				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
@@ -227,6 +230,7 @@
 			files = (
 				3C3AB37A1FCB3F8B00CA7A72 /* x.png in Resources */,
 				E3CB53161FD333A00039FD98 /* Chat.storyboard in Resources */,
+				E34F36201FD799080092FD1C /* otter-art.png in Resources */,
 				A80BE4511FBF573A005582D2 /* LaunchScreen.storyboard in Resources */,
 				3C3AB37C1FCB3FA600CA7A72 /* -.png in Resources */,
 				A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */,

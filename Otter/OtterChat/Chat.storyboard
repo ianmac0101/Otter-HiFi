@@ -41,6 +41,9 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3et-Zu-pZM">
                                 <rect key="frame" x="0.0" y="17" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="0.26117621527777779" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="Otter" id="tqO-OE-jKW">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="R9x-Hi-cZl">
