@@ -1,5 +1,5 @@
 //
-//  practicesTimerViewController.swift
+//  napViewController.swift
 //  Otter
 //
 //  Created by Ian Macato on 11/29/17.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class practicesTimerViewController: UIViewController {
-
+class breatheViewController: UIViewController {
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     //MARK: - IBOutlets
     @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var startButton: UIButton!
@@ -55,15 +55,15 @@ class practicesTimerViewController: UIViewController {
             self.pauseButton.setTitle("Pause",for: .normal)
         }
     }
-//
-//    @IBAction func resetButtonTapped(_ sender: UIButton) {
-//        timer.invalidate()
-//        seconds = 60
-//        timerLabel.text = timeString(time: TimeInterval(seconds))
-//        isTimerRunning = false
-//        pauseButton.isEnabled = false
-//        startButton.isEnabled = true
-//    }
+    //
+    //    @IBAction func resetButtonTapped(_ sender: UIButton) {
+    //        timer.invalidate()
+    //        seconds = 60
+    //        timerLabel.text = timeString(time: TimeInterval(seconds))
+    //        isTimerRunning = false
+    //        pauseButton.isEnabled = false
+    //        startButton.isEnabled = true
+    //    }
     
     
     @objc func updateTimer() {
@@ -74,7 +74,7 @@ class practicesTimerViewController: UIViewController {
             seconds -= 1
             timerLabel.text = timeString(time: TimeInterval(seconds))
             timerLabel.text = String(seconds)
-//            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
+            //            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
         }
     }
     
@@ -91,5 +91,6 @@ class practicesTimerViewController: UIViewController {
         pauseButton.isEnabled = false
     }
 }
+
 
 

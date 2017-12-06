@@ -10,14 +10,15 @@ import UIKit
 
 class practicesPickerViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
-    @IBOutlet weak var practicesPicker: UIPickerView!
+    @IBOutlet weak var timesPicker: UIPickerView!
+    var time_picked = ""
     
     
-    let practices = ["Meditate","Breathe","Nap"]
+    let times = ["1 minute","5 minutes","10 minutes", "15 minutes", "30 minutes"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        practicesPicker.selectRow(2, inComponent:0, animated:true)
+        timesPicker.selectRow(2, inComponent:0, animated:true)
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -25,11 +26,12 @@ class practicesPickerViewController: UIViewController, UIPickerViewDataSource, U
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return practices[row]
+        time_picked = times[row]
+        return times[row]
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return practices.count
+        return times.count
     }
     
 //    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
