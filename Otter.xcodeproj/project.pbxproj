@@ -11,6 +11,13 @@
 		A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44A1FBF573A005582D2 /* Main.storyboard */; };
 		A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44D1FBF573A005582D2 /* Assets.xcassets */; };
 		A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */; };
+		A826B5281FD7A2010091531B /* popUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826B51E1FD7A1FF0091531B /* popUpViewController.swift */; };
+		A826B5291FD7A2010091531B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826B5211FD7A2000091531B /* RoundButton.swift */; };
+		A826B52A1FD7A2010091531B /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826B5221FD7A2000091531B /* HomeViewCell.swift */; };
+		A826B52B1FD7A2010091531B /* GoalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826B5231FD7A2000091531B /* GoalHomeViewController.swift */; };
+		A826B52C1FD7A2010091531B /* MakeNewGoalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826B5251FD7A2010091531B /* MakeNewGoalController.swift */; };
+		A826B52D1FD7A2010091531B /* EditGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826B5261FD7A2010091531B /* EditGoalViewController.swift */; };
+		A826B52E1FD7A2010091531B /* ViewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826B5271FD7A2010091531B /* ViewGoalViewController.swift */; };
 		A883D46C1FD798DD00356A19 /* napViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883D46B1FD798DD00356A19 /* napViewController.swift */; };
 		A883D46E1FD798EA00356A19 /* breatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883D46D1FD798EA00356A19 /* breatheViewController.swift */; };
 		A890DADC1FD26E26006DB6BF /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = A890DADB1FD26E14006DB6BF /* otter_img.png */; };
@@ -25,7 +32,6 @@
 		A8B521ED1FD4F62000989CB2 /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B521D51FD4F61E00989CB2 /* otter_img.png */; };
 		A8B521F31FD4F62000989CB2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B521DC1FD4F61E00989CB2 /* Info.plist */; };
 		A8B521F81FD4F62000989CB2 /* meditating.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B521E11FD4F61F00989CB2 /* meditating.jpeg */; };
-		A8B521FA1FD4F62000989CB2 /* Goals in Resources */ = {isa = PBXBuildFile; fileRef = A8B521E31FD4F61F00989CB2 /* Goals */; };
 		A8B521FC1FD4F62000989CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B521E51FD4F61F00989CB2 /* ViewController.swift */; };
 		A8C021E81FD26B300063BDF9 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E31FD26B0D0063BDF9 /* checkbox.png */; };
 		A8C021E91FD26B300063BDF9 /* lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E41FD26B0E0063BDF9 /* lightbulb.png */; };
@@ -43,6 +49,17 @@
 		A80BE44B1FBF573A005582D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A80BE44D1FBF573A005582D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A826B51D1FD7A1F30091531B /* Goal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Goal.storyboard; sourceTree = "<group>"; };
+		A826B51E1FD7A1FF0091531B /* popUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViewController.swift; sourceTree = "<group>"; };
+		A826B51F1FD7A1FF0091531B /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		A826B5201FD7A1FF0091531B /* -.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-.png"; sourceTree = "<group>"; };
+		A826B5211FD7A2000091531B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		A826B5221FD7A2000091531B /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		A826B5231FD7A2000091531B /* GoalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalHomeViewController.swift; sourceTree = "<group>"; };
+		A826B5241FD7A2000091531B /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		A826B5251FD7A2010091531B /* MakeNewGoalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNewGoalController.swift; sourceTree = "<group>"; };
+		A826B5261FD7A2010091531B /* EditGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalViewController.swift; sourceTree = "<group>"; };
+		A826B5271FD7A2010091531B /* ViewGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGoalViewController.swift; sourceTree = "<group>"; };
 		A883D46B1FD798DD00356A19 /* napViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = napViewController.swift; sourceTree = "<group>"; };
 		A883D46D1FD798EA00356A19 /* breatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breatheViewController.swift; sourceTree = "<group>"; };
 		A890DADB1FD26E14006DB6BF /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
@@ -51,13 +68,11 @@
 		A8B1084D1FD5E10700E538A0 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Chat.storyboard; path = ../../../../Downloads/OtterChat/Chat.storyboard; sourceTree = "<group>"; };
 		A8B1084E1FD5E10800E538A0 /* chatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = chatViewController.swift; path = ../../../../Downloads/OtterChat/chatViewController.swift; sourceTree = "<group>"; };
 		A8B1084F1FD5E10800E538A0 /* displayMainChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = displayMainChat.swift; path = ../../../../Downloads/OtterChat/displayMainChat.swift; sourceTree = "<group>"; };
-		A8B108531FD5F72600E538A0 /* Goal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Goal.storyboard; sourceTree = "<group>"; };
 		A8B521D21FD4F0F600989CB2 /* practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practice.png; sourceTree = "<group>"; };
 		A8B521D41FD4F61E00989CB2 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = running.jpeg; path = ../../../../Downloads/gustavo/Goals/running.jpeg; sourceTree = "<group>"; };
 		A8B521D51FD4F61E00989CB2 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = otter_img.png; path = ../../../../Downloads/gustavo/otter_img.png; sourceTree = "<group>"; };
 		A8B521DC1FD4F61E00989CB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Downloads/gustavo/Info.plist; sourceTree = "<group>"; };
 		A8B521E11FD4F61F00989CB2 /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meditating.jpeg; path = ../../../../Downloads/gustavo/Goals/meditating.jpeg; sourceTree = "<group>"; };
-		A8B521E31FD4F61F00989CB2 /* Goals */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Goals; sourceTree = "<group>"; };
 		A8B521E51FD4F61F00989CB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../Downloads/gustavo/ViewController.swift; sourceTree = "<group>"; };
 		A8C021E31FD26B0D0063BDF9 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
 		A8C021E41FD26B0E0063BDF9 /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb.png; sourceTree = "<group>"; };
@@ -110,9 +125,18 @@
 				A883D46D1FD798EA00356A19 /* breatheViewController.swift */,
 				A8B521E51FD4F61F00989CB2 /* ViewController.swift */,
 				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
-				A8B108531FD5F72600E538A0 /* Goal.storyboard */,
-				A8B521E31FD4F61F00989CB2 /* Goals */,
 				A8C021E71FD26B1C0063BDF9 /* chat.png */,
+				A826B51D1FD7A1F30091531B /* Goal.storyboard */,
+				A826B5201FD7A1FF0091531B /* -.png */,
+				A826B5241FD7A2000091531B /* check.png */,
+				A826B5261FD7A2010091531B /* EditGoalViewController.swift */,
+				A826B5231FD7A2000091531B /* GoalHomeViewController.swift */,
+				A826B5221FD7A2000091531B /* HomeViewCell.swift */,
+				A826B5251FD7A2010091531B /* MakeNewGoalController.swift */,
+				A826B51E1FD7A1FF0091531B /* popUpViewController.swift */,
+				A826B5211FD7A2000091531B /* RoundButton.swift */,
+				A826B5271FD7A2010091531B /* ViewGoalViewController.swift */,
+				A826B51F1FD7A1FF0091531B /* x.png */,
 				A8C021E61FD26B110063BDF9 /* line.png */,
 				A8B521E11FD4F61F00989CB2 /* meditating.jpeg */,
 				A8B521D51FD4F61E00989CB2 /* otter_img.png */,
@@ -219,7 +243,6 @@
 				A890DADC1FD26E26006DB6BF /* otter_img.png in Resources */,
 				A890DAE01FD26E9B006DB6BF /* GoogleService-Info.plist in Resources */,
 				A8B521F31FD4F62000989CB2 /* Info.plist in Resources */,
-				A8B521FA1FD4F62000989CB2 /* Goals in Resources */,
 				A890DADE1FD26E4D006DB6BF /* ripple.png in Resources */,
 				A8B521ED1FD4F62000989CB2 /* otter_img.png in Resources */,
 				A8B521D31FD4F0F600989CB2 /* practice.png in Resources */,
@@ -291,11 +314,18 @@
 			files = (
 				A883D46E1FD798EA00356A19 /* breatheViewController.swift in Sources */,
 				A8CB464D1FCF4CCF00591F7F /* practicesPickerViewController.swift in Sources */,
+				A826B52E1FD7A2010091531B /* ViewGoalViewController.swift in Sources */,
 				A883D46C1FD798DD00356A19 /* napViewController.swift in Sources */,
+				A826B52C1FD7A2010091531B /* MakeNewGoalController.swift in Sources */,
 				A8B108511FD5E10800E538A0 /* chatViewController.swift in Sources */,
+				A826B52D1FD7A2010091531B /* EditGoalViewController.swift in Sources */,
 				A8B521FC1FD4F62000989CB2 /* ViewController.swift in Sources */,
+				A826B52A1FD7A2010091531B /* HomeViewCell.swift in Sources */,
 				A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */,
+				A826B5291FD7A2010091531B /* RoundButton.swift in Sources */,
+				A826B5281FD7A2010091531B /* popUpViewController.swift in Sources */,
 				A8CB464F1FCF4D7800591F7F /* practicesTimerViewController.swift in Sources */,
+				A826B52B1FD7A2010091531B /* GoalHomeViewController.swift in Sources */,
 				A8B108521FD5E10800E538A0 /* displayMainChat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

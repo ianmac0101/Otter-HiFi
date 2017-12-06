@@ -49,7 +49,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="IVT-Uz-xVv" kind="show" id="mqd-NN-04P"/>
+                                    <segue destination="GES-ED-VY3" kind="show" id="sLv-ua-YOb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipl-6u-xRL">
@@ -108,13 +108,13 @@
             </objects>
             <point key="canvasLocation" x="-282" y="645"/>
         </scene>
-        <!--Goal-->
-        <scene sceneID="CHr-HY-hRR">
+        <!--GoalHomeViewController-->
+        <scene sceneID="dcT-lE-ZRH">
             <objects>
-                <viewControllerPlaceholder storyboardName="Goal" id="IVT-Uz-xVv" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="V4T-fM-TFP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Goal" referencedIdentifier="GoalHomeViewController" id="GES-ED-VY3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yiN-ZE-zvr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="258" y="683"/>
+            <point key="canvasLocation" x="245" y="645"/>
         </scene>
         <!--Practices Picker View Controller-->
         <scene sceneID="uIn-9h-Pd9">
@@ -680,7 +680,6 @@
         <image name="ripple.png" width="358" height="366"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="y4P-wH-47c"/>
-        <segue reference="izh-fl-ajD"/>
+        <segue reference="Jd9-wN-LNm"/>
     </inferredMetricsTieBreakers>
 </document>
