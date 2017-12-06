@@ -9,9 +9,9 @@
 import UIKit
 
 //Create pre-filled variables for user, ie user will have already running and meditating goals
-var runningGoal = Goal(activity: "Running", frequency: "weekly", interval: 1, daysOfWeek: ["M","Tu"], location:"", note: "",totalDaysActive: 2, totalDaysCompleted: 2, schedule:  ["M","Tu"], time: 2000)
+var runningGoal = Goal(activity: "Running", frequency: "weekly", interval: 1, daysOfWeek: ["M","Tu"], location:"", note: "",totalDaysActive: 2, totalDaysCompleted: 2, schedule:  ["M","Tu"], time: "8:00 PM")
 
-var meditatingGoal = Goal(activity: "Meditating", frequency: "weekly", interval: 1, daysOfWeek: ["M","Tu"], location:"", note: "", totalDaysActive: 4, totalDaysCompleted: 2, schedule:  ["M","Tu","Th","F"], time: 1300)
+var meditatingGoal = Goal(activity: "Meditating", frequency: "weekly", interval: 1, daysOfWeek: ["M","Tu"], location:"", note: "", totalDaysActive: 4, totalDaysCompleted: 2, schedule:  ["M","Tu","Th","F"], time: "1:00 PM")
 //Currently storing the goals as global variables (not great, but ok for now//
 //TODO: REplace global variables
 var goalsList = [runningGoal,meditatingGoal]
@@ -25,8 +25,17 @@ class GoalHomeViewController: UIViewController, UITableViewDelegate, UITableView
     }
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
-        cell.textLabel?.text = goalsList[indexPath.row].activity
+        //let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell",for: indexPath) as! HomeViewCell
+        //cell.textLabel?.text = goalsList[indexPath.row].activity
+        if indexPath.row < 2{
+            let filename = goalsList[indexPath.row].activity + ".jpeg"
+            cell.goalImage.image = UIImage(named: filename)
+        }
+        cell.goalLabel.text = goalsList[indexPath.row].activity
+        if indexPath.row >= 2{
+            cell.goalLabel.textColor = UIColor.black
+        }
         return (cell)
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -36,8 +45,6 @@ class GoalHomeViewController: UIViewController, UITableViewDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         self.imageViewOtter.image = UIImage(named: "otter_img.png")
-        
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,9 +63,9 @@ class Goal {
     var location = ""
     var note = ""
     var schedule = [String]()
-    var time = 1200
+    var time = "1200"
     
-    init (activity: String, frequency: String, interval: Int, daysOfWeek: [String], location:String, note: String, totalDaysActive: Int, totalDaysCompleted: Int, schedule: [String],time: Int){
+    init (activity: String, frequency: String, interval: Int, daysOfWeek: [String], location:String, note: String, totalDaysActive: Int, totalDaysCompleted: Int, schedule: [String],time: String){
         self.activity = activity
         self.frequency = frequency
         self.interval = interval
@@ -99,22 +106,7 @@ class Goal {
             return "0" + "%"
         }    }
     func getTime() -> String {
-        if self.time > 1200{
-            var hour = Int(Double(self.time) / 100.0)
-            var min = self.time % 100
-            if min < 10 {
-                return"\(hour):0\(min) PM"
-            }
-            return "\(hour):\(min) PM"
-        } else {
-            var hour = Int(Double(self.time) / 100.0)
-            var min = self.time % 100
-            if min < 10 {
-                return"\(hour):0\(min) PM"
-            }
-            return "\(hour):\(min) AM"
-            
-        }
+        return self.time
     }
 }
 

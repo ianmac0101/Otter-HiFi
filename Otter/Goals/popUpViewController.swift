@@ -13,7 +13,7 @@ class popUpViewController: UIViewController {
     @IBOutlet weak var confirmationText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        confirmationText.text = "Created " + (goalsList.last?.activity)! + " activity!"
+        confirmationText.text = "Created " + (goalsList.last?.activity)! + " goal!"
         // Do any additional setup after loading the view.
     }
 
