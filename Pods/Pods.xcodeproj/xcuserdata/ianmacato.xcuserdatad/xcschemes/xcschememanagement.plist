@@ -6,6 +6,7 @@
 	<dict>
 		<key>GoogleToolboxForMac.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
@@ -40,5 +41,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict/>
+=======
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Pods-Otter.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+>>>>>>> gustavo
 </dict>
 </plist>

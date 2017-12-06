@@ -26,6 +26,10 @@ class PickTimeViewController: UIViewController, UITextFieldDelegate, UIPickerVie
     var timeIndex = "AM"
     @IBAction func PMSelected(_ sender: Any) {
         timeIndex = "PM"
+<<<<<<< HEAD
+=======
+        
+>>>>>>> gustavo
     }
 
     @IBAction func AMSelected(_ sender: Any) {

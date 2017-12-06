@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+=======
+		3C30DCB21FD4662100C73A7F /* meditating.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3C30DCB11FD4662100C73A7F /* meditating.jpeg */; };
+		3C30DCB41FD4663400C73A7F /* running.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3C30DCB31FD4663400C73A7F /* running.jpeg */; };
+		3C30DCB61FD46B6000C73A7F /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DCB51FD46B6000C73A7F /* HomeViewCell.swift */; };
+		3C3AB37A1FCB3F8B00CA7A72 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AB3791FCB3F8A00CA7A72 /* x.png */; };
+		3C3AB37C1FCB3FA600CA7A72 /* -.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AB37B1FCB3FA500CA7A72 /* -.png */; };
+		3C3AB37E1FCB3FB900CA7A72 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AB37D1FCB3FB900CA7A72 /* check.png */; };
+		3C4A8FE21FD7BCF6002D9C05 /* ViewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A8FE11FD7BCF5002D9C05 /* ViewGoalViewController.swift */; };
+		3C4A8FE41FD7BD5A002D9C05 /* PickTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A8FE31FD7BD5A002D9C05 /* PickTimeViewController.swift */; };
+		3C4A8FE61FD85EC9002D9C05 /* PickDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A8FE51FD85EC9002D9C05 /* PickDaysViewController.swift */; };
+		3CC002601FCA1349005D3616 /* EditGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */; };
+		3CE307F31FC90521003C2776 /* Goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE307F11FC90521003C2776 /* Goal.storyboard */; };
+		3CE307F61FC923ED003C2776 /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE307F51FC923ED003C2776 /* otter_img.png */; };
+		3CE307F81FC92AAA003C2776 /* GoalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */; };
+		3CE307FC1FC931D1003C2776 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE307FB1FC931D1003C2776 /* RoundButton.swift */; };
+		3CFDD97A1FCB7F2A00A07B3A /* MakeNewGoalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDD9791FCB7F2A00A07B3A /* MakeNewGoalController.swift */; };
+		3CFDD97C1FCB8ABA00A07B3A /* popUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDD97B1FCB8ABA00A07B3A /* popUpViewController.swift */; };
+>>>>>>> gustavo
 		A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4461FBF573A005582D2 /* AppDelegate.swift */; };
 		A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44A1FBF573A005582D2 /* Main.storyboard */; };
 		A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44D1FBF573A005582D2 /* Assets.xcassets */; };
@@ -54,7 +73,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		A0BE0DC52E44753131A2C2DA /* Pods-Otter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Otter/Pods-Otter.release.xcconfig"; sourceTree = "<group>"; };
+=======
+		3C30DCB11FD4662100C73A7F /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meditating.jpeg; sourceTree = "<group>"; };
+		3C30DCB31FD4663400C73A7F /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = running.jpeg; sourceTree = "<group>"; };
+		3C30DCB51FD46B6000C73A7F /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		3C3AB3791FCB3F8A00CA7A72 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		3C3AB37B1FCB3FA500CA7A72 /* -.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-.png"; sourceTree = "<group>"; };
+		3C3AB37D1FCB3FB900CA7A72 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		3C4A8FE11FD7BCF5002D9C05 /* ViewGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewGoalViewController.swift; sourceTree = "<group>"; };
+		3C4A8FE31FD7BD5A002D9C05 /* PickTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTimeViewController.swift; sourceTree = "<group>"; };
+		3C4A8FE51FD85EC9002D9C05 /* PickDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDaysViewController.swift; sourceTree = "<group>"; };
+		3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalViewController.swift; sourceTree = "<group>"; };
+		3CE307F21FC90521003C2776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Goal.storyboard; sourceTree = "<group>"; };
+		3CE307F51FC923ED003C2776 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
+		3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalHomeViewController.swift; sourceTree = "<group>"; };
+		3CE307FB1FC931D1003C2776 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		3CFDD9791FCB7F2A00A07B3A /* MakeNewGoalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNewGoalController.swift; sourceTree = "<group>"; };
+		3CFDD97B1FCB8ABA00A07B3A /* popUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViewController.swift; sourceTree = "<group>"; };
+>>>>>>> gustavo
 		A80BE4431FBF573A005582D2 /* Otter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80BE4461FBF573A005582D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A80BE44B1FBF573A005582D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -116,6 +154,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
+=======
+		3CE307F41FC90546003C2776 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				3CE307F11FC90521003C2776 /* Goal.storyboard */,
+				3C4A8FE51FD85EC9002D9C05 /* PickDaysViewController.swift */,
+				3C30DCB51FD46B6000C73A7F /* HomeViewCell.swift */,
+				3CFDD97B1FCB8ABA00A07B3A /* popUpViewController.swift */,
+				3CFDD9791FCB7F2A00A07B3A /* MakeNewGoalController.swift */,
+				3C4A8FE11FD7BCF5002D9C05 /* ViewGoalViewController.swift */,
+				3C4A8FE31FD7BD5A002D9C05 /* PickTimeViewController.swift */,
+				3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */,
+				3CE307FB1FC931D1003C2776 /* RoundButton.swift */,
+				3C3AB3791FCB3F8A00CA7A72 /* x.png */,
+				3C3AB37D1FCB3FB900CA7A72 /* check.png */,
+				3C3AB37B1FCB3FA500CA7A72 /* -.png */,
+				3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+>>>>>>> gustavo
 		A80BE43A1FBF573A005582D2 = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				A825DB161FD88CCF00CF5F40 /* MakeNewGoalController.swift in Sources */,
 				A883D46E1FD798EA00356A19 /* breatheViewController.swift in Sources */,
 				A8CB464D1FCF4CCF00591F7F /* practicesPickerViewController.swift in Sources */,
@@ -366,6 +428,19 @@
 				A825DB0F1FD88CCF00CF5F40 /* HomeViewCell.swift in Sources */,
 				A825DB121FD88CCF00CF5F40 /* RoundButton.swift in Sources */,
 				A8B521FC1FD4F62000989CB2 /* ViewController.swift in Sources */,
+=======
+				A80BE4491FBF573A005582D2 /* ViewController.swift in Sources */,
+				3C4A8FE21FD7BCF6002D9C05 /* ViewGoalViewController.swift in Sources */,
+				3CC002601FCA1349005D3616 /* EditGoalViewController.swift in Sources */,
+				3C4A8FE41FD7BD5A002D9C05 /* PickTimeViewController.swift in Sources */,
+				3CE307FC1FC931D1003C2776 /* RoundButton.swift in Sources */,
+				A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */,
+				3CE307F81FC92AAA003C2776 /* GoalHomeViewController.swift in Sources */,
+				3CFDD97A1FCB7F2A00A07B3A /* MakeNewGoalController.swift in Sources */,
+				3CFDD97C1FCB8ABA00A07B3A /* popUpViewController.swift in Sources */,
+				3C30DCB61FD46B6000C73A7F /* HomeViewCell.swift in Sources */,
+				3C4A8FE61FD85EC9002D9C05 /* PickDaysViewController.swift in Sources */,
+>>>>>>> gustavo
 				A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */,
 				A825DB131FD88CCF00CF5F40 /* popUpViewController.swift in Sources */,
 				A89629A21FD86BEB00EB9AF8 /* displayMainChat.swift in Sources */,
