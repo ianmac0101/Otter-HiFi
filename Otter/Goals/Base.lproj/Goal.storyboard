@@ -260,6 +260,9 @@
                                     <navigationItem title="Goals" id="hn4-Fq-bpi">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="TvR-4T-Vgm">
                                             <color key="tintColor" red="0.1970226467" green="0.64457446340000002" blue="0.62579810619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="62b-lf-eSK" kind="show" id="1rp-jD-tSu"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -958,7 +961,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="6NX-x3-m26">
                                             <color key="tintColor" red="0.1970226467" green="0.64457446340000002" blue="0.62579810619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
-                                                <segue destination="62b-lf-eSK" kind="show" id="Vwu-JC-vcN"/>
+                                                <segue destination="62b-lf-eSK" kind="show" id="CeE-Ia-Zjq"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -2794,11 +2797,11 @@ lcMAAZXIAAAAAAAABAEAAAAAAAAAVgAAAAAAAAAAAAAAAAABlco
         <image name="practice.png" width="299" height="251"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="AzQ-TG-C8O"/>
-        <segue reference="U6R-l6-CN0"/>
-        <segue reference="p7H-sa-XMb"/>
-        <segue reference="urS-De-hIL"/>
-        <segue reference="kcd-CG-H3f"/>
-        <segue reference="Vwu-JC-vcN"/>
+        <segue reference="vtk-Sh-EEz"/>
+        <segue reference="8jR-cL-f9Y"/>
+        <segue reference="HF5-Be-0LR"/>
+        <segue reference="GuB-Jw-lMw"/>
+        <segue reference="XqA-aS-H0Q"/>
+        <segue reference="CeE-Ia-Zjq"/>
     </inferredMetricsTieBreakers>
 </document>

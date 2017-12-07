@@ -28,9 +28,14 @@ class practicesPickerViewController: UIViewController, UIPickerViewDataSource, U
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        time_selected = times_int[row]
-        print("Selected Item is " + String(times_int[row]))
         return times[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
+    
+        print("Selected row is" + String(row))
+        print("Selected Item is " + String(times_int[row]))
+        time_selected = times_int[row]
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
