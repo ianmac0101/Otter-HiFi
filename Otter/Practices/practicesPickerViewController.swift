@@ -7,7 +7,7 @@
 //
 
 import UIKit
-var time_practice = 10
+var time_practice = 1
 class practicesPickerViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
     @IBOutlet weak var timesPicker: UIPickerView!
@@ -29,6 +29,7 @@ class practicesPickerViewController: UIViewController, UIPickerViewDataSource, U
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         time_selected = times_int[row]
+        print("Selected Item is " + String(times_int[row]))
         return times[row]
     }
     

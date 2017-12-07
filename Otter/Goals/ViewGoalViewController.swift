@@ -38,7 +38,7 @@ class ViewGoalViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        textlabel.text = "This is your goal " + "\(goalsList[myIndex].activity)"
+        textlabel.text = "Your Goal " + "\(goalsList[myIndex].activity)"
         self.otterImage.image = UIImage(named: "otter_img.png")
         self.timeField.text = "Usually around " + goalsList[myIndex].getTime()
         self.percentField.text = goalsList[myIndex].getCompletionRate()
