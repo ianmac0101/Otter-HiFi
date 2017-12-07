@@ -60,6 +60,12 @@
 		A80BE44B1FBF573A005582D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A80BE44D1FBF573A005582D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A81FDE681FD916FA00690250 /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meditating.jpeg; sourceTree = "<group>"; };
+		A81FDE691FD916FA00690250 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
+		A81FDE6A1FD916FC00690250 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = running.jpeg; sourceTree = "<group>"; };
+		A81FDE6B1FD9170A00690250 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = otter_img.png; path = ../../../../../Downloads/gustavo/otter_img.png; sourceTree = "<group>"; };
+		A81FDE6C1FD9170A00690250 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = running.jpeg; path = ../../../../../Downloads/gustavo/Goals/running.jpeg; sourceTree = "<group>"; };
+		A81FDE6D1FD9170B00690250 /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meditating.jpeg; path = ../../../../../Downloads/gustavo/Goals/meditating.jpeg; sourceTree = "<group>"; };
 		A825DAFC1FD88CCF00CF5F40 /* EditGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditGoalViewController.swift; sourceTree = "<group>"; };
 		A825DAFD1FD88CCF00CF5F40 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		A825DAFE1FD88CCF00CF5F40 /* -.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-.png"; sourceTree = "<group>"; };
@@ -78,7 +84,7 @@
 		A826B51F1FD7A1FF0091531B /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 		A883D46B1FD798DD00356A19 /* napViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = napViewController.swift; sourceTree = "<group>"; };
 		A883D46D1FD798EA00356A19 /* breatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breatheViewController.swift; sourceTree = "<group>"; };
-		A890DADB1FD26E14006DB6BF /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
+		A890DADB1FD26E14006DB6BF /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = otter_img.png; path = ../otter_img.png; sourceTree = "<group>"; };
 		A890DADD1FD26E44006DB6BF /* ripple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ripple.png; sourceTree = "<group>"; };
 		A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A896299B1FD86BE900EB9AF8 /* pleasentFeelings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pleasentFeelings.txt; sourceTree = "<group>"; };
@@ -138,10 +144,7 @@
 		A80BE4451FBF573A005582D2 /* Otter */ = {
 			isa = PBXGroup;
 			children = (
-				A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */,
-				A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */,
-				A883D46B1FD798DD00356A19 /* napViewController.swift */,
-				A883D46D1FD798EA00356A19 /* breatheViewController.swift */,
+				A84E8D3E1FD90D1D00248716 /* Practices */,
 				A825DB171FD88D9200CF5F40 /* otter-art.png */,
 				A8B521E51FD4F61F00989CB2 /* ViewController.swift */,
 				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
@@ -152,25 +155,38 @@
 				A896299D1FD86BEA00EB9AF8 /* displayMainChat.swift */,
 				A896299B1FD86BE900EB9AF8 /* pleasentFeelings.txt */,
 				A896299C1FD86BE900EB9AF8 /* unpleasentFeelings.txt */,
-				A826B51F1FD7A1FF0091531B /* x.png */,
-				A8C021E61FD26B110063BDF9 /* line.png */,
+				A81FDE671FD916F900690250 /* Images */,
 				A8B521E11FD4F61F00989CB2 /* meditating.jpeg */,
 				A8B521D51FD4F61E00989CB2 /* otter_img.png */,
 				A8B521D41FD4F61E00989CB2 /* running.jpeg */,
+				A8B521DC1FD4F61E00989CB2 /* Info.plist */,
+				A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */,
+				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
+				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
+				A8C9A4A81FD7CE3D00741245 /* profile.storyboard */,
+			);
+			path = Otter;
+			sourceTree = "<group>";
+		};
+		A81FDE671FD916F900690250 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A81FDE6D1FD9170B00690250 /* meditating.jpeg */,
+				A81FDE6B1FD9170A00690250 /* otter_img.png */,
+				A81FDE6C1FD9170A00690250 /* running.jpeg */,
+				A826B51F1FD7A1FF0091531B /* x.png */,
+				A8C021E61FD26B110063BDF9 /* line.png */,
+				A81FDE681FD916FA00690250 /* meditating.jpeg */,
+				A81FDE6A1FD916FC00690250 /* running.jpeg */,
 				A890DADB1FD26E14006DB6BF /* otter_img.png */,
+				A81FDE691FD916FA00690250 /* otter_img.png */,
 				A8B521D21FD4F0F600989CB2 /* practice.png */,
 				A890DADD1FD26E44006DB6BF /* ripple.png */,
 				A8C021E31FD26B0D0063BDF9 /* checkbox.png */,
 				A8C021E41FD26B0E0063BDF9 /* lightbulb.png */,
 				A8C021E51FD26B0F0063BDF9 /* people.png */,
-				A8B521DC1FD4F61E00989CB2 /* Info.plist */,
-				A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */,
-				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
-				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
-				A825DB191FD88E5400CF5F40 /* Practice.storyboard */,
-				A8C9A4A81FD7CE3D00741245 /* profile.storyboard */,
 			);
-			path = Otter;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		A825DAFB1FD88CCF00CF5F40 /* Goals */ = {
@@ -191,6 +207,18 @@
 				A825DB091FD88CCF00CF5F40 /* MakeNewGoalController.swift */,
 			);
 			path = Goals;
+			sourceTree = "<group>";
+		};
+		A84E8D3E1FD90D1D00248716 /* Practices */ = {
+			isa = PBXGroup;
+			children = (
+				A825DB191FD88E5400CF5F40 /* Practice.storyboard */,
+				A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */,
+				A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */,
+				A883D46B1FD798DD00356A19 /* napViewController.swift */,
+				A883D46D1FD798EA00356A19 /* breatheViewController.swift */,
+			);
+			path = Practices;
 			sourceTree = "<group>";
 		};
 		CF14C243C5D93E0CB0069AE7 /* Pods */ = {

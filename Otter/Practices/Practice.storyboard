@@ -120,6 +120,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="meditateButton:" destination="0gW-C2-EwR" eventType="touchUpInside" id="wb0-fR-BDv"/>
                                     <segue destination="Khr-0B-dab" kind="show" id="Sj5-jQ-YyT"/>
                                 </connections>
                             </button>
@@ -132,6 +133,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="breatheButton:" destination="0gW-C2-EwR" eventType="touchUpInside" id="dVA-qK-CS2"/>
                                     <segue destination="KUd-Ry-f7B" kind="show" id="Yaf-lJ-78r"/>
                                 </connections>
                             </button>
@@ -144,6 +146,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="napButton:" destination="0gW-C2-EwR" eventType="touchUpInside" id="v8f-2I-UlZ"/>
                                     <segue destination="eas-a6-87i" kind="show" id="iHa-9r-yIS"/>
                                 </connections>
                             </button>
@@ -219,10 +222,15 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKg-yw-PVD">
                                 <rect key="frame" x="27" y="20" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="End"/>
+                                <state key="normal" title="End">
+                                    <color key="titleColor" red="0.19702264666557312" green="0.64457446336746216" blue="0.62579810619354248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0gW-C2-EwR" kind="show" id="CvQ-1V-RQd"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BsS-9T-df0">
-                                <rect key="frame" x="171" y="434" width="33" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BsS-9T-df0">
+                                <rect key="frame" x="80" y="434" width="212" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -231,7 +239,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lM8-CN-wIJ">
                                 <rect key="frame" x="119" y="483" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.19702264666557312" green="0.64457446336746216" blue="0.62579810619354248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="startButtonTapped:" destination="Khr-0B-dab" eventType="touchUpInside" id="Zbd-6i-iN3"/>
                                 </connections>
@@ -239,7 +249,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2oJ-oC-ARP">
                                 <rect key="frame" x="191" y="483" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pause"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" red="0.19702264666557312" green="0.64457446336746216" blue="0.62579810619354248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="pauseButtonTapped:" destination="Khr-0B-dab" eventType="touchUpInside" id="Ibl-3p-9XU"/>
                                 </connections>
@@ -327,7 +339,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sL3-xG-Ma5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1967" y="134"/>
+            <point key="canvasLocation" x="1965.5999999999999" y="133.5832083958021"/>
         </scene>
         <!--Nap View Controller-->
         <scene sceneID="a7r-2r-32d">
@@ -498,10 +510,15 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kql-Ju-7Wg">
                                 <rect key="frame" x="28" y="25" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="End"/>
+                                <state key="normal" title="End">
+                                    <color key="titleColor" red="0.19702264666557312" green="0.64457446336746216" blue="0.62579810619354248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0gW-C2-EwR" kind="show" id="iRS-r6-L4S"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65k-2T-xcJ">
-                                <rect key="frame" x="172" y="439" width="33" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65k-2T-xcJ">
+                                <rect key="frame" x="137" y="439" width="116" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -510,7 +527,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xo4-DX-eYv">
                                 <rect key="frame" x="120" y="488" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.19702264666557312" green="0.64457446336746216" blue="0.62579810619354248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="startButtonTapped:" destination="eas-a6-87i" eventType="touchUpInside" id="ajD-dA-kxZ"/>
                                 </connections>
@@ -518,7 +537,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHQ-ec-yap">
                                 <rect key="frame" x="192" y="488" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pause"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" red="0.19702264666557312" green="0.64457446336746216" blue="0.62579810619354248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="pauseButtonTapped:" destination="eas-a6-87i" eventType="touchUpInside" id="roj-Wk-qXK"/>
                                 </connections>
@@ -605,7 +626,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HYA-1O-llw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1966" y="-556"/>
+            <point key="canvasLocation" x="1965.5999999999999" y="-556.37181409295351"/>
         </scene>
         <!--Breathe View Controller-->
         <scene sceneID="77f-QZ-Aot">
@@ -643,10 +664,15 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7K-kv-Fca">
                                 <rect key="frame" x="28" y="20" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="End"/>
+                                <state key="normal" title="End">
+                                    <color key="titleColor" red="0.19702264666557312" green="0.64457446336746216" blue="0.62579810619354248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0gW-C2-EwR" kind="show" id="aHY-IF-Ndj"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQD-KC-Plb">
-                                <rect key="frame" x="172" y="434" width="33" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQD-KC-Plb">
+                                <rect key="frame" x="81" y="434" width="212" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -655,7 +681,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGa-zG-20d">
                                 <rect key="frame" x="120" y="483" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.19702264666557312" green="0.64457446336746216" blue="0.62579810619354248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="startButtonTapped:" destination="KUd-Ry-f7B" eventType="touchUpInside" id="JyD-qu-ipU"/>
                                 </connections>
@@ -663,7 +691,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXR-oL-bbY">
                                 <rect key="frame" x="192" y="483" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pause"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" red="0.19702264666557312" green="0.64457446336746216" blue="0.62579810619354248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="pauseButtonTapped:" destination="KUd-Ry-f7B" eventType="touchUpInside" id="DHG-uj-XVS"/>
                                 </connections>
@@ -763,9 +793,9 @@
         <image name="ripple.png" width="358" height="366"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="45I-aC-Xo2"/>
-        <segue reference="hqS-SL-vNN"/>
-        <segue reference="Fic-5d-xRQ"/>
-        <segue reference="vEn-rE-HNG"/>
+        <segue reference="tIp-hC-FVg"/>
+        <segue reference="JMN-R4-FKW"/>
+        <segue reference="VZg-6U-cJa"/>
+        <segue reference="CvQ-1V-RQd"/>
     </inferredMetricsTieBreakers>
 </document>
