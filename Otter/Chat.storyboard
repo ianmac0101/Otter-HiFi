@@ -42,6 +42,7 @@
                                 <items>
                                     <navigationItem title="Otter" id="tqO-OE-jKW">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="R9x-Hi-cZl">
+                                            <color key="tintColor" red="0.1970226467" green="0.64457446340000002" blue="0.62579810619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <segue destination="3bk-d8-9CZ" kind="show" id="d2f-Br-gCY"/>
                                             </connections>
@@ -49,8 +50,8 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7en-bJ-4U3">
-                                <rect key="frame" x="-1" y="612" width="88" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsq-0d-nH5">
+                                <rect key="frame" x="0.0" y="612" width="88" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -58,57 +59,57 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBW-Wp-Gjm">
-                                <rect key="frame" x="95" y="612" width="88" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PnY-fh-DT5">
+                                <rect key="frame" x="96" y="612" width="88" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="PRACTICE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="N69-hV-B8b" kind="show" id="dhr-yr-H9V"/>
+                                    <segue destination="ISB-v7-YFm" kind="show" id="R9N-pa-zee"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsn-he-k17">
-                                <rect key="frame" x="191" y="612" width="88" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUX-3A-EtN">
+                                <rect key="frame" x="192" y="612" width="88" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="GOALS">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dEe-35-QEY" kind="show" id="Yx9-9j-M5x"/>
+                                    <segue destination="m9G-TP-wJc" kind="show" id="b0I-NQ-SXW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHO-Vp-6oX">
-                                <rect key="frame" x="287" y="612" width="88" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ai2-9a-KQq">
+                                <rect key="frame" x="288" y="612" width="88" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="PROFILE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lkS-V5-2Zr" kind="show" id="DEW-dQ-zJK"/>
+                                    <segue destination="xkP-My-K6s" kind="show" id="sme-Wp-cLj"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chat.png" translatesAutoresizingMaskIntoConstraints="NO" id="EAE-0B-Ucc">
-                                <rect key="frame" x="28" y="617" width="31" height="31"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chat.png" translatesAutoresizingMaskIntoConstraints="NO" id="8LQ-7P-Aay">
+                                <rect key="frame" x="29" y="617" width="31" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="practice.png" translatesAutoresizingMaskIntoConstraints="NO" id="NHP-BQ-tg4">
-                                <rect key="frame" x="122" y="611" width="34" height="37"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="s07-rV-JDV">
+                                <rect key="frame" x="220" y="615" width="33" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="pgd-nN-MrR">
-                                <rect key="frame" x="219" y="615" width="33" height="33"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="people.png" translatesAutoresizingMaskIntoConstraints="NO" id="wAY-ZQ-xli">
+                                <rect key="frame" x="314" y="611" width="36" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="people.png" translatesAutoresizingMaskIntoConstraints="NO" id="BS2-bO-rO9">
-                                <rect key="frame" x="313" y="611" width="36" height="37"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.png" translatesAutoresizingMaskIntoConstraints="NO" id="9bu-4D-LOH">
+                                <rect key="frame" x="0.0" y="602" width="375" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.png" translatesAutoresizingMaskIntoConstraints="NO" id="1AZ-Qx-4zH">
-                                <rect key="frame" x="-1" y="602" width="375" height="2"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="practice.png" translatesAutoresizingMaskIntoConstraints="NO" id="XR9-ZR-Oe3">
+                                <rect key="frame" x="123" y="615" width="34" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -135,37 +136,29 @@
             </objects>
             <point key="canvasLocation" x="662" y="549"/>
         </scene>
-        <!--Goal-->
-        <scene sceneID="BiN-fu-1pl">
+        <!--Practice-->
+        <scene sceneID="1tK-Kg-ly4">
             <objects>
-                <viewControllerPlaceholder storyboardName="Goal" id="dEe-35-QEY" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="doM-yY-H8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Practice" id="ISB-v7-YFm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nPE-5T-7Pn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1362" y="439"/>
+            <point key="canvasLocation" x="1243" y="319"/>
         </scene>
         <!--profile-->
-        <scene sceneID="zGj-uu-JOf">
+        <scene sceneID="Rw6-wV-dcn">
             <objects>
-                <viewControllerPlaceholder storyboardName="profile" id="lkS-V5-2Zr" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E7F-B1-mff" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="profile" id="xkP-My-K6s" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ERS-7k-A80" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632" y="451"/>
+            <point key="canvasLocation" x="1765" y="169"/>
         </scene>
-        <!--Practice-->
-        <scene sceneID="EwK-Ht-zLv">
+        <!--Goal-->
+        <scene sceneID="VFT-tX-YJx">
             <objects>
-                <viewControllerPlaceholder storyboardName="Practice" id="N69-hV-B8b" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3RB-GK-hdb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Goal" id="m9G-TP-wJc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZoO-uL-JVD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1146" y="381"/>
-        </scene>
-        <!--Main-->
-        <scene sceneID="W9U-x5-L9J">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="UMH-Rz-cUw" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ytq-Ad-AYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1250" y="501"/>
+            <point key="canvasLocation" x="1542" y="337"/>
         </scene>
     </scenes>
     <resources>
