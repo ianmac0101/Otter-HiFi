@@ -90,6 +90,7 @@ class napViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         pauseButton.isEnabled = false
+        timerLabel.text = timeString(time: TimeInterval(time_practice))
     }
 }
 
