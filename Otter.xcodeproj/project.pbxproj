@@ -92,6 +92,9 @@
 		A896299D1FD86BEA00EB9AF8 /* displayMainChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayMainChat.swift; sourceTree = "<group>"; };
 		A896299E1FD86BEA00EB9AF8 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		A896299F1FD86BEA00EB9AF8 /* chatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		A8AD7BF91FD9D6C400529081 /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meditating.jpeg; sourceTree = "<group>"; };
+		A8AD7BFA1FD9D6C400529081 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
+		A8AD7BFB1FD9D6C400529081 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = running.jpeg; sourceTree = "<group>"; };
 		A8B521D21FD4F0F600989CB2 /* practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practice.png; sourceTree = "<group>"; };
 		A8B521D41FD4F61E00989CB2 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = running.jpeg; path = ../../../../Downloads/gustavo/Goals/running.jpeg; sourceTree = "<group>"; };
 		A8B521D51FD4F61E00989CB2 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = otter_img.png; path = ../../../../Downloads/gustavo/otter_img.png; sourceTree = "<group>"; };
@@ -204,6 +207,9 @@
 				A825DB061FD88CCF00CF5F40 /* popUpViewController.swift */,
 				A825DB071FD88CCF00CF5F40 /* ViewGoalViewController.swift */,
 				A825DB081FD88CCF00CF5F40 /* PickTimeViewController.swift */,
+				A8AD7BF91FD9D6C400529081 /* meditating.jpeg */,
+				A8AD7BFA1FD9D6C400529081 /* otter_img.png */,
+				A8AD7BFB1FD9D6C400529081 /* running.jpeg */,
 				A825DB091FD88CCF00CF5F40 /* MakeNewGoalController.swift */,
 			);
 			path = Goals;
