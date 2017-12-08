@@ -9,20 +9,20 @@
 import UIKit
 
 class practicesTimerViewController: UIViewController {
-
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     //MARK: - IBOutlets
     @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var practiceLabel: UILabel!
     
-    var seconds = 60
+    var seconds = time_practice
     var timer = Timer()
     
     var isTimerRunning = false
@@ -55,15 +55,15 @@ class practicesTimerViewController: UIViewController {
             self.pauseButton.setTitle("Pause",for: .normal)
         }
     }
-//
-//    @IBAction func resetButtonTapped(_ sender: UIButton) {
-//        timer.invalidate()
-//        seconds = 60
-//        timerLabel.text = timeString(time: TimeInterval(seconds))
-//        isTimerRunning = false
-//        pauseButton.isEnabled = false
-//        startButton.isEnabled = true
-//    }
+    //
+    //    @IBAction func resetButtonTapped(_ sender: UIButton) {
+    //        timer.invalidate()
+    //        seconds = 60
+    //        timerLabel.text = timeString(time: TimeInterval(seconds))
+    //        isTimerRunning = false
+    //        pauseButton.isEnabled = false
+    //        startButton.isEnabled = true
+    //    }
     
     
     @objc func updateTimer() {
@@ -73,8 +73,9 @@ class practicesTimerViewController: UIViewController {
         } else {
             seconds -= 1
             timerLabel.text = timeString(time: TimeInterval(seconds))
-            timerLabel.text = String(seconds)
-//            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
+            
+            //            timerLabel.text
+            //            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
         }
     }
     
@@ -89,6 +90,7 @@ class practicesTimerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         pauseButton.isEnabled = false
+        timerLabel.text = timeString(time: TimeInterval(seconds))
     }
 }
 

@@ -7,25 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-=======
-		3C30DCB21FD4662100C73A7F /* meditating.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3C30DCB11FD4662100C73A7F /* meditating.jpeg */; };
-		3C30DCB41FD4663400C73A7F /* running.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3C30DCB31FD4663400C73A7F /* running.jpeg */; };
-		3C30DCB61FD46B6000C73A7F /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DCB51FD46B6000C73A7F /* HomeViewCell.swift */; };
-		3C3AB37A1FCB3F8B00CA7A72 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AB3791FCB3F8A00CA7A72 /* x.png */; };
-		3C3AB37C1FCB3FA600CA7A72 /* -.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AB37B1FCB3FA500CA7A72 /* -.png */; };
-		3C3AB37E1FCB3FB900CA7A72 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3AB37D1FCB3FB900CA7A72 /* check.png */; };
-		3C4A8FE21FD7BCF6002D9C05 /* ViewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A8FE11FD7BCF5002D9C05 /* ViewGoalViewController.swift */; };
-		3C4A8FE41FD7BD5A002D9C05 /* PickTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A8FE31FD7BD5A002D9C05 /* PickTimeViewController.swift */; };
-		3C4A8FE61FD85EC9002D9C05 /* PickDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A8FE51FD85EC9002D9C05 /* PickDaysViewController.swift */; };
-		3CC002601FCA1349005D3616 /* EditGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */; };
-		3CE307F31FC90521003C2776 /* Goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE307F11FC90521003C2776 /* Goal.storyboard */; };
-		3CE307F61FC923ED003C2776 /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE307F51FC923ED003C2776 /* otter_img.png */; };
-		3CE307F81FC92AAA003C2776 /* GoalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */; };
-		3CE307FC1FC931D1003C2776 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE307FB1FC931D1003C2776 /* RoundButton.swift */; };
-		3CFDD97A1FCB7F2A00A07B3A /* MakeNewGoalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDD9791FCB7F2A00A07B3A /* MakeNewGoalController.swift */; };
-		3CFDD97C1FCB8ABA00A07B3A /* popUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDD97B1FCB8ABA00A07B3A /* popUpViewController.swift */; };
->>>>>>> gustavo
+		3C30DCB61FD46B6000C73A7F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3C4A8FE21FD7BCF6002D9C05 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3C4A8FE41FD7BD5A002D9C05 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3C4A8FE61FD85EC9002D9C05 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3CC002601FCA1349005D3616 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3CE307F81FC92AAA003C2776 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3CE307FC1FC931D1003C2776 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3CFDD97A1FCB7F2A00A07B3A /* (null) in Sources */ = {isa = PBXBuildFile; };
+		3CFDD97C1FCB8ABA00A07B3A /* (null) in Sources */ = {isa = PBXBuildFile; };
 		A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80BE4461FBF573A005582D2 /* AppDelegate.swift */; };
 		A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44A1FBF573A005582D2 /* Main.storyboard */; };
 		A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80BE44D1FBF573A005582D2 /* Assets.xcassets */; };
@@ -47,20 +37,20 @@
 		A825DB1A1FD88E5400CF5F40 /* Practice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A825DB191FD88E5400CF5F40 /* Practice.storyboard */; };
 		A883D46C1FD798DD00356A19 /* napViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883D46B1FD798DD00356A19 /* napViewController.swift */; };
 		A883D46E1FD798EA00356A19 /* breatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883D46D1FD798EA00356A19 /* breatheViewController.swift */; };
-		A890DADC1FD26E26006DB6BF /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = A890DADB1FD26E14006DB6BF /* otter_img.png */; };
 		A890DADE1FD26E4D006DB6BF /* ripple.png in Resources */ = {isa = PBXBuildFile; fileRef = A890DADD1FD26E44006DB6BF /* ripple.png */; };
 		A890DAE01FD26E9B006DB6BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */; };
-		A89629A01FD86BEB00EB9AF8 /* pleasentFeelings.txt in Resources */ = {isa = PBXBuildFile; fileRef = A896299B1FD86BE900EB9AF8 /* pleasentFeelings.txt */; };
-		A89629A11FD86BEB00EB9AF8 /* unpleasentFeelings.txt in Resources */ = {isa = PBXBuildFile; fileRef = A896299C1FD86BE900EB9AF8 /* unpleasentFeelings.txt */; };
-		A89629A21FD86BEB00EB9AF8 /* displayMainChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A896299D1FD86BEA00EB9AF8 /* displayMainChat.swift */; };
 		A89629A31FD86BEB00EB9AF8 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A896299E1FD86BEA00EB9AF8 /* Chat.storyboard */; };
-		A89629A41FD86BEB00EB9AF8 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A896299F1FD86BEA00EB9AF8 /* chatViewController.swift */; };
 		A8AA43C8B6435E87B2131593 /* Pods_Otter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E82257B1A67943F9BFBCB2 /* Pods_Otter.framework */; };
+		A8AD7C101FD9DEF800529081 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD7C0C1FD9DEF800529081 /* chatViewController.swift */; };
+		A8AD7C111FD9DEF800529081 /* unpleasentFeelings.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8AD7C0D1FD9DEF800529081 /* unpleasentFeelings.txt */; };
+		A8AD7C121FD9DEF800529081 /* displayMainChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD7C0E1FD9DEF800529081 /* displayMainChat.swift */; };
+		A8AD7C131FD9DEF800529081 /* pleasentFeelings.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8AD7C0F1FD9DEF800529081 /* pleasentFeelings.txt */; };
+		A8AD7C141FD9DFA700529081 /* Meditating.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A81FDE6D1FD9170B00690250 /* Meditating.jpeg */; };
+		A8AD7C151FD9DFAA00529081 /* Running.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A81FDE6C1FD9170A00690250 /* Running.jpeg */; };
+		A8AD7C161FD9DFAC00529081 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = A826B51F1FD7A1FF0091531B /* x.png */; };
+		A8AD7C171FD9DFB100529081 /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = A81FDE691FD916FA00690250 /* otter_img.png */; };
 		A8B521D31FD4F0F600989CB2 /* practice.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B521D21FD4F0F600989CB2 /* practice.png */; };
-		A8B521EC1FD4F62000989CB2 /* running.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B521D41FD4F61E00989CB2 /* running.jpeg */; };
-		A8B521ED1FD4F62000989CB2 /* otter_img.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B521D51FD4F61E00989CB2 /* otter_img.png */; };
 		A8B521F31FD4F62000989CB2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B521DC1FD4F61E00989CB2 /* Info.plist */; };
-		A8B521F81FD4F62000989CB2 /* meditating.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B521E11FD4F61F00989CB2 /* meditating.jpeg */; };
 		A8B521FC1FD4F62000989CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B521E51FD4F61F00989CB2 /* ViewController.swift */; };
 		A8C021E81FD26B300063BDF9 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E31FD26B0D0063BDF9 /* checkbox.png */; };
 		A8C021E91FD26B300063BDF9 /* lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C021E41FD26B0E0063BDF9 /* lightbulb.png */; };
@@ -73,31 +63,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		A0BE0DC52E44753131A2C2DA /* Pods-Otter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Otter/Pods-Otter.release.xcconfig"; sourceTree = "<group>"; };
-=======
-		3C30DCB11FD4662100C73A7F /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meditating.jpeg; sourceTree = "<group>"; };
-		3C30DCB31FD4663400C73A7F /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = running.jpeg; sourceTree = "<group>"; };
-		3C30DCB51FD46B6000C73A7F /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
-		3C3AB3791FCB3F8A00CA7A72 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
-		3C3AB37B1FCB3FA500CA7A72 /* -.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-.png"; sourceTree = "<group>"; };
-		3C3AB37D1FCB3FB900CA7A72 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
-		3C4A8FE11FD7BCF5002D9C05 /* ViewGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewGoalViewController.swift; sourceTree = "<group>"; };
-		3C4A8FE31FD7BD5A002D9C05 /* PickTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTimeViewController.swift; sourceTree = "<group>"; };
-		3C4A8FE51FD85EC9002D9C05 /* PickDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDaysViewController.swift; sourceTree = "<group>"; };
-		3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalViewController.swift; sourceTree = "<group>"; };
-		3CE307F21FC90521003C2776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Goal.storyboard; sourceTree = "<group>"; };
-		3CE307F51FC923ED003C2776 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
-		3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalHomeViewController.swift; sourceTree = "<group>"; };
-		3CE307FB1FC931D1003C2776 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		3CFDD9791FCB7F2A00A07B3A /* MakeNewGoalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNewGoalController.swift; sourceTree = "<group>"; };
-		3CFDD97B1FCB8ABA00A07B3A /* popUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViewController.swift; sourceTree = "<group>"; };
->>>>>>> gustavo
 		A80BE4431FBF573A005582D2 /* Otter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80BE4461FBF573A005582D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A80BE44B1FBF573A005582D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A80BE44D1FBF573A005582D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80BE45B1FBF6236005582D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A81FDE691FD916FA00690250 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
+		A81FDE6C1FD9170A00690250 /* Running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Running.jpeg; sourceTree = "<group>"; };
+		A81FDE6D1FD9170B00690250 /* Meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meditating.jpeg; sourceTree = "<group>"; };
 		A825DAFC1FD88CCF00CF5F40 /* EditGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditGoalViewController.swift; sourceTree = "<group>"; };
 		A825DAFD1FD88CCF00CF5F40 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		A825DAFE1FD88CCF00CF5F40 /* -.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-.png"; sourceTree = "<group>"; };
@@ -116,20 +90,16 @@
 		A826B51F1FD7A1FF0091531B /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 		A883D46B1FD798DD00356A19 /* napViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = napViewController.swift; sourceTree = "<group>"; };
 		A883D46D1FD798EA00356A19 /* breatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breatheViewController.swift; sourceTree = "<group>"; };
-		A890DADB1FD26E14006DB6BF /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otter_img.png; sourceTree = "<group>"; };
 		A890DADD1FD26E44006DB6BF /* ripple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ripple.png; sourceTree = "<group>"; };
 		A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A896299B1FD86BE900EB9AF8 /* pleasentFeelings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pleasentFeelings.txt; sourceTree = "<group>"; };
-		A896299C1FD86BE900EB9AF8 /* unpleasentFeelings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unpleasentFeelings.txt; sourceTree = "<group>"; };
-		A896299D1FD86BEA00EB9AF8 /* displayMainChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayMainChat.swift; sourceTree = "<group>"; };
 		A896299E1FD86BEA00EB9AF8 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
-		A896299F1FD86BEA00EB9AF8 /* chatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		A8AD7C0C1FD9DEF800529081 /* chatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		A8AD7C0D1FD9DEF800529081 /* unpleasentFeelings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unpleasentFeelings.txt; sourceTree = "<group>"; };
+		A8AD7C0E1FD9DEF800529081 /* displayMainChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayMainChat.swift; sourceTree = "<group>"; };
+		A8AD7C0F1FD9DEF800529081 /* pleasentFeelings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pleasentFeelings.txt; sourceTree = "<group>"; };
 		A8B521D21FD4F0F600989CB2 /* practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practice.png; sourceTree = "<group>"; };
-		A8B521D41FD4F61E00989CB2 /* running.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = running.jpeg; path = ../../../../Downloads/gustavo/Goals/running.jpeg; sourceTree = "<group>"; };
-		A8B521D51FD4F61E00989CB2 /* otter_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = otter_img.png; path = ../../../../Downloads/gustavo/otter_img.png; sourceTree = "<group>"; };
-		A8B521DC1FD4F61E00989CB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Downloads/gustavo/Info.plist; sourceTree = "<group>"; };
-		A8B521E11FD4F61F00989CB2 /* meditating.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meditating.jpeg; path = ../../../../Downloads/gustavo/Goals/meditating.jpeg; sourceTree = "<group>"; };
-		A8B521E51FD4F61F00989CB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../Downloads/gustavo/ViewController.swift; sourceTree = "<group>"; };
+		A8B521DC1FD4F61E00989CB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B521E51FD4F61F00989CB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8C021E31FD26B0D0063BDF9 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
 		A8C021E41FD26B0E0063BDF9 /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb.png; sourceTree = "<group>"; };
 		A8C021E51FD26B0F0063BDF9 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
@@ -154,29 +124,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
-=======
-		3CE307F41FC90546003C2776 /* Goals */ = {
-			isa = PBXGroup;
-			children = (
-				3CE307F11FC90521003C2776 /* Goal.storyboard */,
-				3C4A8FE51FD85EC9002D9C05 /* PickDaysViewController.swift */,
-				3C30DCB51FD46B6000C73A7F /* HomeViewCell.swift */,
-				3CFDD97B1FCB8ABA00A07B3A /* popUpViewController.swift */,
-				3CFDD9791FCB7F2A00A07B3A /* MakeNewGoalController.swift */,
-				3C4A8FE11FD7BCF5002D9C05 /* ViewGoalViewController.swift */,
-				3C4A8FE31FD7BD5A002D9C05 /* PickTimeViewController.swift */,
-				3CC0025F1FCA1349005D3616 /* EditGoalViewController.swift */,
-				3CE307FB1FC931D1003C2776 /* RoundButton.swift */,
-				3C3AB3791FCB3F8A00CA7A72 /* x.png */,
-				3C3AB37D1FCB3FB900CA7A72 /* check.png */,
-				3C3AB37B1FCB3FA500CA7A72 /* -.png */,
-				3CE307F71FC92AAA003C2776 /* GoalHomeViewController.swift */,
-			);
-			path = Goals;
-			sourceTree = "<group>";
-		};
->>>>>>> gustavo
 		A80BE43A1FBF573A005582D2 = {
 			isa = PBXGroup;
 			children = (
@@ -199,39 +146,39 @@
 		A80BE4451FBF573A005582D2 /* Otter */ = {
 			isa = PBXGroup;
 			children = (
-				A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */,
-				A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */,
-				A883D46B1FD798DD00356A19 /* napViewController.swift */,
-				A883D46D1FD798EA00356A19 /* breatheViewController.swift */,
+				A84E8D3E1FD90D1D00248716 /* Practices */,
 				A825DB171FD88D9200CF5F40 /* otter-art.png */,
 				A8B521E51FD4F61F00989CB2 /* ViewController.swift */,
 				A80BE4461FBF573A005582D2 /* AppDelegate.swift */,
+				A8AD7C0B1FD9DEF800529081 /* Chat */,
 				A8C021E71FD26B1C0063BDF9 /* chat.png */,
 				A896299E1FD86BEA00EB9AF8 /* Chat.storyboard */,
 				A825DAFB1FD88CCF00CF5F40 /* Goals */,
-				A896299F1FD86BEA00EB9AF8 /* chatViewController.swift */,
-				A896299D1FD86BEA00EB9AF8 /* displayMainChat.swift */,
-				A896299B1FD86BE900EB9AF8 /* pleasentFeelings.txt */,
-				A896299C1FD86BE900EB9AF8 /* unpleasentFeelings.txt */,
+				A81FDE671FD916F900690250 /* Images */,
+				A8B521DC1FD4F61E00989CB2 /* Info.plist */,
+				A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */,
+				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
+				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
+				A8C9A4A81FD7CE3D00741245 /* profile.storyboard */,
+			);
+			path = Otter;
+			sourceTree = "<group>";
+		};
+		A81FDE671FD916F900690250 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A81FDE6D1FD9170B00690250 /* Meditating.jpeg */,
+				A81FDE6C1FD9170A00690250 /* Running.jpeg */,
 				A826B51F1FD7A1FF0091531B /* x.png */,
 				A8C021E61FD26B110063BDF9 /* line.png */,
-				A8B521E11FD4F61F00989CB2 /* meditating.jpeg */,
-				A8B521D51FD4F61E00989CB2 /* otter_img.png */,
-				A8B521D41FD4F61E00989CB2 /* running.jpeg */,
-				A890DADB1FD26E14006DB6BF /* otter_img.png */,
+				A81FDE691FD916FA00690250 /* otter_img.png */,
 				A8B521D21FD4F0F600989CB2 /* practice.png */,
 				A890DADD1FD26E44006DB6BF /* ripple.png */,
 				A8C021E31FD26B0D0063BDF9 /* checkbox.png */,
 				A8C021E41FD26B0E0063BDF9 /* lightbulb.png */,
 				A8C021E51FD26B0F0063BDF9 /* people.png */,
-				A8B521DC1FD4F61E00989CB2 /* Info.plist */,
-				A890DADF1FD26E9B006DB6BF /* GoogleService-Info.plist */,
-				A80BE44D1FBF573A005582D2 /* Assets.xcassets */,
-				A80BE44A1FBF573A005582D2 /* Main.storyboard */,
-				A825DB191FD88E5400CF5F40 /* Practice.storyboard */,
-				A8C9A4A81FD7CE3D00741245 /* profile.storyboard */,
 			);
-			path = Otter;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		A825DAFB1FD88CCF00CF5F40 /* Goals */ = {
@@ -252,6 +199,29 @@
 				A825DB091FD88CCF00CF5F40 /* MakeNewGoalController.swift */,
 			);
 			path = Goals;
+			sourceTree = "<group>";
+		};
+		A84E8D3E1FD90D1D00248716 /* Practices */ = {
+			isa = PBXGroup;
+			children = (
+				A825DB191FD88E5400CF5F40 /* Practice.storyboard */,
+				A8CB464E1FCF4D7800591F7F /* practicesTimerViewController.swift */,
+				A8CB464C1FCF4CCF00591F7F /* practicesPickerViewController.swift */,
+				A883D46B1FD798DD00356A19 /* napViewController.swift */,
+				A883D46D1FD798EA00356A19 /* breatheViewController.swift */,
+			);
+			path = Practices;
+			sourceTree = "<group>";
+		};
+		A8AD7C0B1FD9DEF800529081 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A8AD7C0C1FD9DEF800529081 /* chatViewController.swift */,
+				A8AD7C0D1FD9DEF800529081 /* unpleasentFeelings.txt */,
+				A8AD7C0E1FD9DEF800529081 /* displayMainChat.swift */,
+				A8AD7C0F1FD9DEF800529081 /* pleasentFeelings.txt */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		CF14C243C5D93E0CB0069AE7 /* Pods */ = {
@@ -334,31 +304,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				A80BE45C1FBF6236005582D2 /* Default-568h@2x.png in Resources */,
+				A8AD7C151FD9DFAA00529081 /* Running.jpeg in Resources */,
 				A8C021EB1FD26B300063BDF9 /* line.png in Resources */,
 				A8C021E81FD26B300063BDF9 /* checkbox.png in Resources */,
-				A890DADC1FD26E26006DB6BF /* otter_img.png in Resources */,
 				A890DAE01FD26E9B006DB6BF /* GoogleService-Info.plist in Resources */,
+				A8AD7C141FD9DFA700529081 /* Meditating.jpeg in Resources */,
 				A8B521F31FD4F62000989CB2 /* Info.plist in Resources */,
 				A825DB181FD88D9200CF5F40 /* otter-art.png in Resources */,
 				A825DB1A1FD88E5400CF5F40 /* Practice.storyboard in Resources */,
 				A890DADE1FD26E4D006DB6BF /* ripple.png in Resources */,
-				A8B521ED1FD4F62000989CB2 /* otter_img.png in Resources */,
 				A8B521D31FD4F0F600989CB2 /* practice.png in Resources */,
 				A825DB101FD88CCF00CF5F40 /* Goal.storyboard in Resources */,
 				A825DB0B1FD88CCF00CF5F40 /* check.png in Resources */,
 				A8C021EC1FD26B300063BDF9 /* chat.png in Resources */,
 				A825DB0E1FD88CCF00CF5F40 /* x.png in Resources */,
 				A825DB0C1FD88CCF00CF5F40 /* -.png in Resources */,
-				A8B521EC1FD4F62000989CB2 /* running.jpeg in Resources */,
 				A89629A31FD86BEB00EB9AF8 /* Chat.storyboard in Resources */,
 				A8C9A4A91FD7CE3D00741245 /* profile.storyboard in Resources */,
-				A8B521F81FD4F62000989CB2 /* meditating.jpeg in Resources */,
 				A8C021EA1FD26B300063BDF9 /* people.png in Resources */,
 				A80BE44E1FBF573A005582D2 /* Assets.xcassets in Resources */,
+				A8AD7C111FD9DEF800529081 /* unpleasentFeelings.txt in Resources */,
+				A8AD7C131FD9DEF800529081 /* pleasentFeelings.txt in Resources */,
+				A8AD7C161FD9DFAC00529081 /* x.png in Resources */,
 				A8C021E91FD26B300063BDF9 /* lightbulb.png in Resources */,
-				A89629A11FD86BEB00EB9AF8 /* unpleasentFeelings.txt in Resources */,
+				A8AD7C171FD9DFB100529081 /* otter_img.png in Resources */,
 				A80BE44C1FBF573A005582D2 /* Main.storyboard in Resources */,
-				A89629A01FD86BEB00EB9AF8 /* pleasentFeelings.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,33 +387,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
+				A8AD7C121FD9DEF800529081 /* displayMainChat.swift in Sources */,
 				A825DB161FD88CCF00CF5F40 /* MakeNewGoalController.swift in Sources */,
 				A883D46E1FD798EA00356A19 /* breatheViewController.swift in Sources */,
+				A8AD7C101FD9DEF800529081 /* chatViewController.swift in Sources */,
 				A8CB464D1FCF4CCF00591F7F /* practicesPickerViewController.swift in Sources */,
 				A825DB141FD88CCF00CF5F40 /* ViewGoalViewController.swift in Sources */,
 				A883D46C1FD798DD00356A19 /* napViewController.swift in Sources */,
-				A89629A41FD86BEB00EB9AF8 /* chatViewController.swift in Sources */,
 				A825DB0A1FD88CCF00CF5F40 /* EditGoalViewController.swift in Sources */,
 				A825DB0F1FD88CCF00CF5F40 /* HomeViewCell.swift in Sources */,
 				A825DB121FD88CCF00CF5F40 /* RoundButton.swift in Sources */,
 				A8B521FC1FD4F62000989CB2 /* ViewController.swift in Sources */,
-=======
-				A80BE4491FBF573A005582D2 /* ViewController.swift in Sources */,
-				3C4A8FE21FD7BCF6002D9C05 /* ViewGoalViewController.swift in Sources */,
-				3CC002601FCA1349005D3616 /* EditGoalViewController.swift in Sources */,
-				3C4A8FE41FD7BD5A002D9C05 /* PickTimeViewController.swift in Sources */,
-				3CE307FC1FC931D1003C2776 /* RoundButton.swift in Sources */,
-				A80BE45A1FBF5A6D005582D2 /* PracticesController.swift in Sources */,
-				3CE307F81FC92AAA003C2776 /* GoalHomeViewController.swift in Sources */,
-				3CFDD97A1FCB7F2A00A07B3A /* MakeNewGoalController.swift in Sources */,
-				3CFDD97C1FCB8ABA00A07B3A /* popUpViewController.swift in Sources */,
-				3C30DCB61FD46B6000C73A7F /* HomeViewCell.swift in Sources */,
-				3C4A8FE61FD85EC9002D9C05 /* PickDaysViewController.swift in Sources */,
->>>>>>> gustavo
+				3C4A8FE21FD7BCF6002D9C05 /* (null) in Sources */,
+				3CC002601FCA1349005D3616 /* (null) in Sources */,
+				3C4A8FE41FD7BD5A002D9C05 /* (null) in Sources */,
+				3CE307FC1FC931D1003C2776 /* (null) in Sources */,
+				3CE307F81FC92AAA003C2776 /* (null) in Sources */,
+				3CFDD97A1FCB7F2A00A07B3A /* (null) in Sources */,
+				3CFDD97C1FCB8ABA00A07B3A /* (null) in Sources */,
+				3C30DCB61FD46B6000C73A7F /* (null) in Sources */,
+				3C4A8FE61FD85EC9002D9C05 /* (null) in Sources */,
 				A80BE4471FBF573A005582D2 /* AppDelegate.swift in Sources */,
 				A825DB131FD88CCF00CF5F40 /* popUpViewController.swift in Sources */,
-				A89629A21FD86BEB00EB9AF8 /* displayMainChat.swift in Sources */,
 				A825DB151FD88CCF00CF5F40 /* PickTimeViewController.swift in Sources */,
 				A825DB0D1FD88CCF00CF5F40 /* PickDaysViewController.swift in Sources */,
 				A825DB111FD88CCF00CF5F40 /* GoalHomeViewController.swift in Sources */,
@@ -586,10 +551,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SY6H988JMP;
+				DEVELOPMENT_TEAM = 8YJ2342CPM;
 				INFOPLIST_FILE = Otter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = imacato.Otter;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs147.otter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -602,10 +567,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SY6H988JMP;
+				DEVELOPMENT_TEAM = 8YJ2342CPM;
 				INFOPLIST_FILE = Otter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = imacato.Otter;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs147.otter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;

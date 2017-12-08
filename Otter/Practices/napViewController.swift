@@ -22,7 +22,7 @@ class napViewController: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var practiceLabel: UILabel!
     
-    var seconds = 60
+    var seconds = time_practice
     var timer = Timer()
     
     var isTimerRunning = false
@@ -37,7 +37,7 @@ class napViewController: UIViewController {
     }
     
     func runTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(practicesTimerViewController.updateTimer)), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(napViewController.updateTimer)), userInfo: nil, repeats: true)
         isTimerRunning = true
         pauseButton.isEnabled = true
     }
@@ -73,8 +73,9 @@ class napViewController: UIViewController {
         } else {
             seconds -= 1
             timerLabel.text = timeString(time: TimeInterval(seconds))
-            timerLabel.text = String(seconds)
-            //            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
+            
+//            timerLabel.text
+//            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
         }
     }
     
@@ -89,6 +90,7 @@ class napViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         pauseButton.isEnabled = false
+        timerLabel.text = timeString(time: TimeInterval(seconds))
     }
 }
 
