@@ -71,8 +71,8 @@ class practicesTimerViewController: UIViewController {
             timer.invalidate()
             //Send alert to indicate time's up.
         } else {
-            time_practice -= 1
-            timerLabel.text = timeString(time: TimeInterval(time_practice))
+            seconds -= 1
+            timerLabel.text = timeString(time: TimeInterval(seconds))
             
             //            timerLabel.text
             //            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
@@ -90,7 +90,7 @@ class practicesTimerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         pauseButton.isEnabled = false
-        timerLabel.text = timeString(time: TimeInterval(time_practice))
+        timerLabel.text = timeString(time: TimeInterval(seconds))
     }
 }
 
