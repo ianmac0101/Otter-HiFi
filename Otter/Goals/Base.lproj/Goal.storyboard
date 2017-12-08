@@ -1016,8 +1016,8 @@
                                 <rect key="frame" x="0.0" y="195" width="375" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rk9-hp-yUH">
-                                        <rect key="frame" x="25" y="49" width="321" height="31"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rk9-hp-yUH">
+                                        <rect key="frame" x="25" y="-23" width="321" height="155"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
@@ -2797,12 +2797,11 @@ lcMAAZXIAAAAAAAABAEAAAAAAAAAVgAAAAAAAAAAAAAAAAABlco
         <image name="practice.png" width="299" height="251"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cnb-OT-0PM"/>
         <segue reference="vtk-Sh-EEz"/>
         <segue reference="8jR-cL-f9Y"/>
         <segue reference="HF5-Be-0LR"/>
         <segue reference="GuB-Jw-lMw"/>
         <segue reference="XqA-aS-H0Q"/>
-        <segue reference="CeE-Ia-Zjq"/>
+        <segue reference="pSD-PU-Msr"/>
     </inferredMetricsTieBreakers>
 </document>
