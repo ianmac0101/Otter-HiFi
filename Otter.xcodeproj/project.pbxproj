@@ -98,7 +98,7 @@
 		A8AD7C0E1FD9DEF800529081 /* displayMainChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayMainChat.swift; sourceTree = "<group>"; };
 		A8AD7C0F1FD9DEF800529081 /* pleasentFeelings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pleasentFeelings.txt; sourceTree = "<group>"; };
 		A8B521D21FD4F0F600989CB2 /* practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practice.png; sourceTree = "<group>"; };
-		A8B521DC1FD4F61E00989CB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Downloads/gustavo/Info.plist; sourceTree = "<group>"; };
+		A8B521DC1FD4F61E00989CB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8B521E51FD4F61F00989CB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8C021E31FD26B0D0063BDF9 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
 		A8C021E41FD26B0E0063BDF9 /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb.png; sourceTree = "<group>"; };
