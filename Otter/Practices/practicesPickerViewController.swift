@@ -7,15 +7,17 @@
 //
 
 import UIKit
-
+var time_practice = 1
 class practicesPickerViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
     @IBOutlet weak var timesPicker: UIPickerView!
     var time_picked = ""
     
+    var time_selected = 10
+    
     
     let times = ["1 minute","5 minutes","10 minutes", "15 minutes", "30 minutes"]
-    
+    let times_int = [60,300,600,900,1800]
     override func viewDidLoad() {
         super.viewDidLoad()
         timesPicker.selectRow(2, inComponent:0, animated:true)
@@ -26,13 +28,34 @@ class practicesPickerViewController: UIViewController, UIPickerViewDataSource, U
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        time_picked = times[row]
         return times[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
+    
+        print("Selected row is" + String(row))
+        print("Selected Item is " + String(times_int[row]))
+        time_selected = times_int[row]
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return times.count
     }
+    
+    @IBAction func meditateButton(_ sender: Any) {
+        time_practice = time_selected
+    }
+    
+    @IBAction func breatheButton(_ sender: Any) {
+        time_practice = time_selected
+    }
+    
+    @IBAction func napButton(_ sender: Any) {
+        time_practice = time_selected
+    }
+    
+    
+    
     
 //    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        if let identifier = segue.identifier {

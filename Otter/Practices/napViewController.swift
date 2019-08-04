@@ -8,7 +8,7 @@
 
 import UIKit
 
-class breatheViewController: UIViewController {
+class napViewController: UIViewController {
     
     
     override func didReceiveMemoryWarning() {
@@ -22,7 +22,7 @@ class breatheViewController: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var practiceLabel: UILabel!
     
-    var seconds = 60
+    var seconds = time_practice
     var timer = Timer()
     
     var isTimerRunning = false
@@ -37,7 +37,7 @@ class breatheViewController: UIViewController {
     }
     
     func runTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(practicesTimerViewController.updateTimer)), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(napViewController.updateTimer)), userInfo: nil, repeats: true)
         isTimerRunning = true
         pauseButton.isEnabled = true
     }
@@ -71,10 +71,11 @@ class breatheViewController: UIViewController {
             timer.invalidate()
             //Send alert to indicate time's up.
         } else {
-            seconds -= 1
-            timerLabel.text = timeString(time: TimeInterval(seconds))
-            timerLabel.text = String(seconds)
-            //            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
+            time_practice -= 1
+            timerLabel.text = timeString(time: TimeInterval(time_practice))
+            
+//            timerLabel.text
+//            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
         }
     }
     
@@ -89,8 +90,8 @@ class breatheViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         pauseButton.isEnabled = false
+        timerLabel.text = timeString(time: TimeInterval(time_practice))
     }
 }
-
 
 

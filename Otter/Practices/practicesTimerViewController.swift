@@ -1,5 +1,5 @@
 //
-//  napViewController.swift
+//  practicesTimerViewController.swift
 //  Otter
 //
 //  Created by Ian Macato on 11/29/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class napViewController: UIViewController {
+class practicesTimerViewController: UIViewController {
     
     
     override func didReceiveMemoryWarning() {
@@ -22,7 +22,7 @@ class napViewController: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var practiceLabel: UILabel!
     
-    var seconds = 60
+    var seconds = time_practice
     var timer = Timer()
     
     var isTimerRunning = false
@@ -71,9 +71,10 @@ class napViewController: UIViewController {
             timer.invalidate()
             //Send alert to indicate time's up.
         } else {
-            seconds -= 1
-            timerLabel.text = timeString(time: TimeInterval(seconds))
-            timerLabel.text = String(seconds)
+            time_practice -= 1
+            timerLabel.text = timeString(time: TimeInterval(time_practice))
+            
+            //            timerLabel.text
             //            timerLabel.setTitle(timeString(time: TimeInterval(seconds)), for: UIControlState.normal)
         }
     }
@@ -89,6 +90,7 @@ class napViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         pauseButton.isEnabled = false
+        timerLabel.text = timeString(time: TimeInterval(time_practice))
     }
 }
 
